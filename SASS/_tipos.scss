@@ -1,13 +1,14 @@
+@import "../SASS/variables";
 
 /*Titulo*/
 .Tipos__Titulo {
     position: absolute;
     text-align: center;
-    color: #F39A00;
-    font-size: 80px;
+    color: $Color_Principal_2;
+    font-size: $Tamano_Titulos;
     font-weight: bold;
-    font-family: "Times New Roman", sans-serif;
-    margin-left: 650px;
+    font-family: $Fuente_Titulos;
+    margin-left: 30%;
 }
 
 
@@ -16,7 +17,7 @@
 
 /*Primera parte de tipos de tattoo*/
 .Tipos__Primera__Parte {
-    background-color:#F39A00;
+    background-color:$Color_Principal_2;
     display: flex; justify-content: space-evenly; align-items: center;
     padding-top: 10px;
     padding-bottom: 10px;
@@ -26,7 +27,7 @@
         width: 550px;
         height: 700px;
         background-image: url(https://i.pinimg.com/originals/46/29/f8/4629f818baae9e61bac3ae8dedea07d2.jpg);
-        border: 8px solid #000000;
+        border: 8px solid $Color_Principal_1;
         padding-top: 0px;
         padding-bottom: 0px;
     }
@@ -38,13 +39,13 @@
             background-color: rgba(31, 31, 31, 0.9);
             -webkit-transition: opacity 1s;
             opacity: 0;
-            color: orange;
+            color: $Color_Principal_2;
         }
             div#Inf h1{
                 font-size: 40px;
                 font-weight: bold;
                 font-family: Arial, sans-serif;
-                color: #F39A00;
+                color: $Color_Principal_2;
                 text-align: center;
                 padding-top: 80px;
                 padding-bottom: 80px;
@@ -84,7 +85,7 @@
         margin: 30px;
         background-image: url(https://i.pinimg.com/originals/5e/45/c5/5e45c553b2af4a565ab15ec321119f7f.jpg);
         background-position: center;
-        border: 8px solid #000000;
+        border: 8px solid $Color_Principal_1;
         padding-top: 0px;
         padding-bottom: 0px;
     }
@@ -96,13 +97,13 @@
             background-color: rgba(31, 31, 31, 0.9);
             -webkit-transition: opacity 1s;
             opacity: 0;
-            color: orange;
+            color: $Color_Principal_2;
         }
             div#Inf2 h1{
                 font-size: 40px;
                 font-weight: bold;
                 font-family: Arial, sans-serif;
-                color: #F39A00;
+                color: $Color_Principal_2;
                 text-align: center;
                 padding-top: 80px;
                 padding-bottom: 80px;
@@ -140,7 +141,7 @@
         margin: 30px;
         background-image: url(https://st2.depositphotos.com/1024849/7014/v/600/depositphotos_70143447-stock-illustration-maori-tattoo-design.jpg);
         background-position: center;
-        border: 8px solid #000000;
+        border: 8px solid $Color_Principal_1;
         padding-top: 0px;
         padding-bottom: 0px;
     }
@@ -152,13 +153,13 @@
             background-color: rgba(31, 31, 31, 0.9);
             -webkit-transition: opacity 1s;
             opacity: 0;
-            color: orange;
+            color: $Color_Principal_2;
         }
             div#Inf3 h1{
                 font-size: 40px;
                 font-weight: bold;
                 font-family: Arial, sans-serif;
-                color: #F39A00;
+                color: $Color_Principal_2;
                 text-align: center;
                 padding-top: 80px;
                 padding-bottom: 80px;
@@ -195,7 +196,7 @@
 
 /*Segunda parte de tipos de tattoo*/
 .Tipos__Segunda__Parte {
-    background-color: #000000;
+    background-color: $Color_Principal_1;
     display: flex; justify-content: space-evenly; align-items: center;
     padding-top: 10px;
     padding-bottom: 10px;
@@ -207,7 +208,7 @@
         margin: 30px;
         background-image: url(https://i.pinimg.com/originals/28/d4/50/28d4508c6b119cc7594bc93c83698295.jpg);
         background-position: center;
-        border: 8px solid #F39A00;
+        border: 8px solid $Color_Principal_2;
         padding-top: 0px;
         padding-bottom: 0px;
     }
@@ -219,13 +220,13 @@
             background-color: rgba(31, 31, 31, 0.9);
             -webkit-transition: opacity 1s;
             opacity: 0;
-            color: orange;
+            color: $Color_Principal_2;
         }
             div#Inf4 h1{
                 font-size: 40px;
                 font-weight: bold;
                 font-family: Arial, sans-serif;
-                color: #F39A00;
+                color: $Color_Principal_2;
                 text-align: center;
                 padding-top: 80px;
                 padding-bottom: 80px;
@@ -263,7 +264,7 @@
         margin: 30px;
         background-image: url(https://www.tatuantes.com/wp-content/uploads/2019/12/tatuajes-tradicionales-americanos-830x555.jpg);
         background-position: center;
-        border: 8px solid #F39A00;
+        border: 8px solid $Color_Principal_2;
         padding-top: 0px;
         padding-bottom: 0px;
     }
@@ -275,13 +276,13 @@
             background-color: rgba(31, 31, 31, 0.9);
             -webkit-transition: opacity 1s;
             opacity: 0;
-            color: orange;
+            color: $Color_Principal_2;
         }
             div#Inf5 h1{
                 font-size: 40px;
                 font-weight: bold;
                 font-family: Arial, sans-serif;
-                color: #F39A00;
+                color: $Color_Principal_2;
                 text-align: center;
                 padding-top: 80px;
                 padding-bottom: 80px;
@@ -319,7 +320,7 @@
         margin: 30px;
         background-image: url(https://i.pinimg.com/originals/ff/d2/95/ffd295eb712589da642d99a1747bf5be.jpg);
         background-position: center;
-        border: 8px solid #F39A00;
+        border: 8px solid $Color_Principal_2;
         padding-top: 0px;
         padding-bottom: 0px;
     }
@@ -331,13 +332,13 @@
             background-color: rgba(31, 31, 31, 0.9);
             -webkit-transition: opacity 1s;
             opacity: 0;
-            color: orange;
+            color: $Color_Principal_2;
         }
             div#Inf6 h1{
                 font-size: 40px;
                 font-weight: bold;
                 font-family: Arial, sans-serif;
-                color: #F39A00;
+                color: $Color_Principal_2;
                 text-align: center;
                 padding-top: 80px;
                 padding-bottom: 80px;
@@ -371,7 +372,7 @@
 
 /*Tercera parte de tipos de tattoo*/
 .Tipos__Tercera__Parte {
-    background-color: #F39A00;
+    background-color: $Color_Principal_2;
     display: flex; justify-content: space-evenly; align-items: center;
     padding-top: 10px;
     padding-bottom: 10px;
@@ -383,7 +384,7 @@
         height: 700px;
         background-image: url(https://latatoueuse.com/es/images/octubre4/tatuaje-gotico-57.jpg);
         background-size: cover;
-        border: 8px solid #000000;
+        border: 8px solid $Color_Principal_1;
         padding-top: 0px;
         padding-bottom: 0px;
     }
@@ -395,13 +396,13 @@
             background-color: rgba(31, 31, 31, 0.9);
             -webkit-transition: opacity 1s;
             opacity: 0;
-            color: orange;
+            color: $Color_Principal_2;
         }
             div#Inf7 h1{
                 font-size: 40px;
                 font-weight: bold;
                 font-family: Arial, sans-serif;
-                color: #F39A00;
+                color: $Color_Principal_2;
                 text-align: center;
                 padding-top: 80px;
                 padding-bottom: 80px;
@@ -440,7 +441,7 @@
         background-image: url(https://i.pinimg.com/originals/ea/b5/b5/eab5b523029b47dcbab60c307a1a52a8.jpg);
         background-size: cover;
         background-position: center;
-        border: 8px solid #000000;
+        border: 8px solid $Color_Principal_1;
         padding-top: 0px;
         padding-bottom: 0px;
     }
@@ -452,13 +453,13 @@
             background-color: rgba(31, 31, 31, 0.9);
             -webkit-transition: opacity 1s;
             opacity: 0;
-            color: orange;
+            color: $Color_Principal_2;
         }
             div#Inf8 h1{
                 font-size: 40px;
                 font-weight: bold;
                 font-family: Arial, sans-serif;
-                color: #F39A00;
+                color: $Color_Principal_2;
                 text-align: center;
                 padding-top: 80px;
                 padding-bottom: 80px;
@@ -496,7 +497,7 @@
         margin: 30px;
         background-image: url(https://i.pinimg.com/originals/a3/86/d4/a386d4c7cf355541b3d9c087dd151b7c.png);
         background-size: cover;
-        border: 8px solid #000000;
+        border: 8px solid $Color_Principal_1;
         padding-top: 0px;
         padding-bottom: 0px;
     }
@@ -508,13 +509,13 @@
             background-color: rgba(31, 31, 31, 0.9);
             -webkit-transition: opacity 1s;
             opacity: 0;
-            color: orange;
+            color: $Color_Principal_2;
         }
             div#Inf9 h1{
                 font-size: 40px;
                 font-weight: bold;
                 font-family: Arial, sans-serif;
-                color: #F39A00;
+                color: $Color_Principal_2;
                 text-align: center;
                 padding-top: 80px;
                 padding-bottom: 80px;
@@ -552,7 +553,7 @@
 
 /*Cuarta parte de tipos de tattoo*/
 .Tipos__Cuarta__Parte {
-    background-color: #000000;
+    background-color: $Color_Principal_1;
     display: flex; justify-content: space-evenly; align-items: center;
     padding-top: 10px;
     padding-bottom: 10px;
@@ -564,7 +565,7 @@ div.Tipos__Cuarta__Parte__10 {
     height: 700px;
     background-image: url(https://i.pinimg.com/564x/07/7e/f5/077ef5fbbb78fc57f76d4e7feb69bf7c.jpg);
     background-size: cover;
-    border: 8px solid #F39A00;
+    border: 8px solid $Color_Principal_2;
     padding-top: 0px;
     padding-bottom: 0px;
 }
@@ -576,13 +577,13 @@ div.Tipos__Cuarta__Parte__10 {
         background-color: rgba(31, 31, 31, 0.9);
         -webkit-transition: opacity 1s;
         opacity: 0;
-        color: orange;
+        color: $Color_Principal_2;
     }
         div#Inf10 h1{
             font-size: 40px;
             font-weight: bold;
             font-family: Arial, sans-serif;
-            color: #F39A00;
+            color: $Color_Principal_2;
             text-align: center;
             padding-top: 80px;
             padding-bottom: 80px;
@@ -621,7 +622,7 @@ div.Tipos__Cuarta__Parte__11 {
     background-image: url(https://i.pinimg.com/originals/d6/2f/3f/d62f3f2b30d6f03678b8facd93b4a31b.jpg);
     background-size: cover;
     background-position: center;
-    border: 8px solid #F39A00;
+    border: 8px solid $Color_Principal_2;
     padding-top: 0px;
     padding-bottom: 0px;
 }
@@ -633,13 +634,13 @@ div.Tipos__Cuarta__Parte__11 {
         background-color: rgba(31, 31, 31, 0.9);
         -webkit-transition: opacity 1s;
         opacity: 0;
-        color: orange;
+        color: $Color_Principal_2;
     }
         div#Inf11 h1{
             font-size: 40px;
             font-weight: bold;
             font-family: Arial, sans-serif;
-            color: #F39A00;
+            color: $Color_Principal_2;
             text-align: center;
             padding-top: 80px;
             padding-bottom: 80px;
@@ -678,7 +679,7 @@ div.Tipos__Cuarta__Parte__12 {
     background-image: url(https://www.minabo.com/wp-content/uploads/2019/12/52-8.jpg);
     background-size: cover;
     background-position: center;
-    border: 8px solid #F39A00;
+    border: 8px solid $Color_Principal_2;
     padding-top: 0px;
     padding-bottom: 0px;
 }
@@ -690,13 +691,13 @@ div.Tipos__Cuarta__Parte__12 {
         background-color: rgba(31, 31, 31, 0.9);
         -webkit-transition: opacity 1s;
         opacity: 0;
-        color: orange;
+        color: $Color_Principal_2;
     }
         div#Inf12 h1{
             font-size: 40px;
             font-weight: bold;
             font-family: Arial, sans-serif;
-            color: #F39A00;
+            color: $Color_Principal_2;
             text-align: center;
             padding-top: 80px;
             padding-bottom: 80px;
@@ -734,7 +735,7 @@ div.Tipos__Cuarta__Parte__12 {
 
 /*Quinta parte de tipos de tattoo*/
 .Tipos__Quinta__Parte {
-    background-color: #F39A00;
+    background-color: $Color_Principal_2;
     display: flex; justify-content: space-evenly; align-items: center;
     padding-top: 10px;
     padding-bottom: 10px;
@@ -747,7 +748,7 @@ div.Tipos__Quinta__Parte__13 {
     background-image: url(https://luisaolvera.com/wp-content/uploads/2019/06/Tatuajes-Glifos-Dedos-300x300.jpg);
     background-size: cover;
     background-position: center;
-    border: 8px solid #000000;
+    border: 8px solid $Color_Principal_1;
     padding-top: 0px;
     padding-bottom: 0px;
 }
@@ -759,13 +760,13 @@ div.Tipos__Quinta__Parte__13 {
         background-color: rgba(31, 31, 31, 0.9);
         -webkit-transition: opacity 1s;
         opacity: 0;
-        color: orange;
+        color: $Color_Principal_2;
     }
         div#Inf13 h1{
             font-size: 40px;
             font-weight: bold;
             font-family: Arial, sans-serif;
-            color: #F39A00;
+            color: $Color_Principal_2;
             text-align: center;
             padding-top: 80px;
             padding-bottom: 80px;
@@ -804,7 +805,7 @@ div.Tipos__Quinta__Parte__14 {
     background-image: url(https://i.pinimg.com/originals/41/f2/16/41f216f2aeec8b5095d86a691af3a446.jpg);
     background-size: cover;
     background-position: center;
-    border: 8px solid #000000;
+    border: 8px solid $Color_Principal_1;
     padding-top: 0px;
     padding-bottom: 0px;
 }
@@ -816,13 +817,13 @@ div.Tipos__Quinta__Parte__14 {
         background-color: rgba(31, 31, 31, 0.9);
         -webkit-transition: opacity 1s;
         opacity: 0;
-        color: orange;
+        color: $Color_Principal_2;
     }
         div#Inf14 h1{
             font-size: 40px;
             font-weight: bold;
             font-family: Arial, sans-serif;
-            color: #F39A00;
+            color: $Color_Principal_2;
             text-align: center;
             padding-top: 80px;
             padding-bottom: 80px;
@@ -861,7 +862,7 @@ div.Tipos__Quinta__Parte__15 {
     background-image: url(https://www.minabo.com/wp-content/uploads/2018/10/98-3.jpg);
     background-size: cover;
     background-position: center;
-    border: 8px solid #000000;
+    border: 8px solid $Color_Principal_1;
     padding-top: 0px;
     padding-bottom: 0px;
 }
@@ -873,13 +874,13 @@ div.Tipos__Quinta__Parte__15 {
         background-color: rgba(31, 31, 31, 0.9);
         -webkit-transition: opacity 1s;
         opacity: 0;
-        color: orange;
+        color:$Color_Principal_2;
     }
         div#Inf15 h1{
             font-size: 40px;
             font-weight: bold;
             font-family: Arial, sans-serif;
-            color: #F39A00;
+            color: $Color_Principal_2;
             text-align: center;
             padding-top: 80px;
             padding-bottom: 80px;

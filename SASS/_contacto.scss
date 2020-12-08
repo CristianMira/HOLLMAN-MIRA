@@ -1,6 +1,8 @@
+@import "../SASS/variables";
+
 /*Contacto*/
 .Contacto {
-    background-color: #F39A00;
+    background-color: $Color_Principal_2;
 }
 .Formulario {
     display: flex; justify-content: space-evenly; align-items: center;
@@ -8,30 +10,37 @@
 }
 .Formulario__Contacto {
     width: 650px;
-    background-color: black;
+    background-color: rgba(31, 31, 31, 0.9);
     padding: 25px;
     margin: auto;
     margin-top: 50px;
     border-radius: 4px;
-    border: 8px solid #000000;
-    font-family: "Calibri";
-    color: orange;
+    border: 8px solid black;
+    font-family: $Fuente_Parrafos;
+    color: $Color_Principal_2;
 }
+
  .Formulario__Imagen__1{
     margin-left: 10px;
     margin-top: 50px;
     width: 600px;
     border-radius: 0px;
     margin-bottom: 16px;
-    border: 8px solid #000000;
+    border: 8px solid black;
  }
+
  .Formulario__Imagen__2{
     margin-right: 10px;
     margin-top: 50px;
     width: 600px;
     border-radius: 0px;
     margin-bottom: 16px;
-    border: 8px solid #000000;
+    border: 8px solid black;
+ }
+
+ .Mapa{
+    width: 585px;
+    height: 400px;
  }
 
 .Contacto h2 {
@@ -40,26 +49,26 @@
 }
 
 .control {
-    color:  #F39A00;
+    color:  $Color_Principal_2;
     width: 100%;
-    background: #000000;
+    background: rgba(31, 31, 31, 0.9);
     padding: 10px;
     border-radius: 4px;
     margin-bottom: 16px;
-    border: 2px solid #F39A00;
-    font-family: "calibri";
+    border: 2px solid $Color_Principal_2;
+    font-family: $Fuente_Parrafos;
     font-size: 18px;
     
 }   
 
 .boton {
-    color: #000000;
+    color: rgba(31, 31, 31, 0.9);
     width: 100%;
-    background: #F39A00;
+    background: $Color_Principal_2;
     padding:  10px;
     border-radius: 4px;
     margin-bottom: 16px;
-    border: 2px solid #F39A00;
-    font-family: "calibri";
+    border: 2px solid $Color_Principal_2;
+    font-family: $Fuente_Parrafos;
     font-size: 18px;
 }

@@ -144,10 +144,10 @@
   position: absolute;
   text-align: center;
   color: #F39A00;
-  font-size: 80px;
+  font-size: 100px;
   font-weight: bold;
-  font-family: "Times New Roman", sans-serif;
-  margin-left: 850px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  margin-left: 35%;
 }
 
 .GTC__Imagen {
@@ -170,7 +170,7 @@
   width: 600px;
   height: 600px;
   background-size: contain;
-  border: 8px solid #000000;
+  border: 8px solid black;
   padding-top: 0px;
   padding-bottom: 0px;
 }
@@ -180,7 +180,7 @@
   width: 600px;
   height: 600px;
   background-size: contain;
-  border: 8px solid #000000;
+  border: 8px solid black;
   padding-top: 0px;
   padding-bottom: 0px;
 }
@@ -190,7 +190,7 @@
   width: 600px;
   height: 600px;
   background-size: contain;
-  border: 8px solid #000000;
+  border: 8px solid black;
   padding-top: 0px;
   padding-bottom: 0px;
 }
@@ -200,7 +200,7 @@
   width: 600px;
   height: 600px;
   background-size: contain;
-  border: 8px solid #000000;
+  border: 8px solid black;
   padding-top: 0px;
   padding-bottom: 0px;
 }
@@ -210,7 +210,7 @@
   width: 600px;
   height: 600px;
   background-size: contain;
-  border: 8px solid #000000;
+  border: 8px solid black;
   padding-top: 0px;
   padding-bottom: 0px;
 }
@@ -220,7 +220,7 @@
   width: 600px;
   height: 600px;
   background-size: contain;
-  border: 8px solid #000000;
+  border: 8px solid black;
   padding-top: 0px;
   padding-bottom: 0px;
 }
@@ -230,7 +230,7 @@
   width: 600px;
   height: 600px;
   background-size: contain;
-  border: 8px solid #000000;
+  border: 8px solid black;
   padding-top: 0px;
   padding-bottom: 0px;
 }
@@ -239,8 +239,8 @@
   background-image: url(../Tattos/T14.jpg);
   width: 600px;
   height: 600px;
-  background-size: contain;
-  border: 8px solid #000000;
+  background-size: cover;
+  border: 8px solid black;
   padding-top: 0px;
   padding-bottom: 0px;
 }
@@ -250,7 +250,7 @@
   width: 600px;
   height: 600px;
   background-size: contain;
-  border: 8px solid #000000;
+  border: 8px solid black;
   padding-top: 0px;
   padding-bottom: 0px;
 }
@@ -259,8 +259,8 @@
   background-image: url(../Tattos/T19.jpg);
   width: 600px;
   height: 600px;
-  background-size: contain;
-  border: 8px solid #000000;
+  background-size: cover;
+  border: 8px solid black;
   padding-top: 0px;
   padding-bottom: 0px;
 }
@@ -270,7 +270,7 @@
   width: 600px;
   height: 600px;
   background-size: contain;
-  border: 8px solid #000000;
+  border: 8px solid black;
   padding-top: 0px;
   padding-bottom: 0px;
 }
@@ -280,14 +280,14 @@
   width: 600px;
   height: 600px;
   background-size: contain;
-  border: 8px solid #000000;
+  border: 8px solid black;
   padding-top: 0px;
   padding-bottom: 0px;
 }
 
 /*Segunda parte de galeria*/
 .Galeria__Segunda__Parte {
-  background-color: #000000;
+  background-color: black;
   display: flex;
   justify-content: space-evenly;
   align-items: center;
@@ -401,10 +401,10 @@
   position: absolute;
   text-align: center;
   color: #F39A00;
-  font-size: 80px;
+  font-size: 100px;
   font-weight: bold;
-  font-family: "Times New Roman", sans-serif;
-  margin-left: 650px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  margin-left: 30%;
 }
 
 /*Primera parte de tipos de tattoo*/
@@ -422,7 +422,7 @@ div.Tipos__Primera__Parte__1 {
   width: 550px;
   height: 700px;
   background-image: url(https://i.pinimg.com/originals/46/29/f8/4629f818baae9e61bac3ae8dedea07d2.jpg);
-  border: 8px solid #000000;
+  border: 8px solid black;
   padding-top: 0px;
   padding-bottom: 0px;
 }
@@ -435,7 +435,7 @@ div#Inf {
   background-color: rgba(31, 31, 31, 0.9);
   -webkit-transition: opacity 1s;
   opacity: 0;
-  color: orange;
+  color: #F39A00;
 }
 
 div#Inf h1 {
@@ -484,7 +484,7 @@ div.Tipos__Primera__Parte__2 {
   margin: 30px;
   background-image: url(https://i.pinimg.com/originals/5e/45/c5/5e45c553b2af4a565ab15ec321119f7f.jpg);
   background-position: center;
-  border: 8px solid #000000;
+  border: 8px solid black;
   padding-top: 0px;
   padding-bottom: 0px;
 }
@@ -497,7 +497,7 @@ div#Inf2 {
   background-color: rgba(31, 31, 31, 0.9);
   -webkit-transition: opacity 1s;
   opacity: 0;
-  color: orange;
+  color: #F39A00;
 }
 
 div#Inf2 h1 {
@@ -546,7 +546,7 @@ div.Tipos__Primera__Parte__3 {
   margin: 30px;
   background-image: url(https://st2.depositphotos.com/1024849/7014/v/600/depositphotos_70143447-stock-illustration-maori-tattoo-design.jpg);
   background-position: center;
-  border: 8px solid #000000;
+  border: 8px solid black;
   padding-top: 0px;
   padding-bottom: 0px;
 }
@@ -559,7 +559,7 @@ div#Inf3 {
   background-color: rgba(31, 31, 31, 0.9);
   -webkit-transition: opacity 1s;
   opacity: 0;
-  color: orange;
+  color: #F39A00;
 }
 
 div#Inf3 h1 {
@@ -604,7 +604,7 @@ div#Inf3:hover h2 {
 
 /*Segunda parte de tipos de tattoo*/
 .Tipos__Segunda__Parte {
-  background-color: #000000;
+  background-color: black;
   display: flex;
   justify-content: space-evenly;
   align-items: center;
@@ -632,7 +632,7 @@ div#Inf4 {
   background-color: rgba(31, 31, 31, 0.9);
   -webkit-transition: opacity 1s;
   opacity: 0;
-  color: orange;
+  color: #F39A00;
 }
 
 div#Inf4 h1 {
@@ -694,7 +694,7 @@ div#Inf5 {
   background-color: rgba(31, 31, 31, 0.9);
   -webkit-transition: opacity 1s;
   opacity: 0;
-  color: orange;
+  color: #F39A00;
 }
 
 div#Inf5 h1 {
@@ -756,7 +756,7 @@ div#Inf6 {
   background-color: rgba(31, 31, 31, 0.9);
   -webkit-transition: opacity 1s;
   opacity: 0;
-  color: orange;
+  color: #F39A00;
 }
 
 div#Inf6 h1 {
@@ -815,7 +815,7 @@ div.Tipos__Tercera__Parte__7 {
   height: 700px;
   background-image: url(https://latatoueuse.com/es/images/octubre4/tatuaje-gotico-57.jpg);
   background-size: cover;
-  border: 8px solid #000000;
+  border: 8px solid black;
   padding-top: 0px;
   padding-bottom: 0px;
 }
@@ -828,7 +828,7 @@ div#Inf7 {
   background-color: rgba(31, 31, 31, 0.9);
   -webkit-transition: opacity 1s;
   opacity: 0;
-  color: orange;
+  color: #F39A00;
 }
 
 div#Inf7 h1 {
@@ -878,7 +878,7 @@ div.Tipos__Tercera__Parte__8 {
   background-image: url(https://i.pinimg.com/originals/ea/b5/b5/eab5b523029b47dcbab60c307a1a52a8.jpg);
   background-size: cover;
   background-position: center;
-  border: 8px solid #000000;
+  border: 8px solid black;
   padding-top: 0px;
   padding-bottom: 0px;
 }
@@ -891,7 +891,7 @@ div#Inf8 {
   background-color: rgba(31, 31, 31, 0.9);
   -webkit-transition: opacity 1s;
   opacity: 0;
-  color: orange;
+  color: #F39A00;
 }
 
 div#Inf8 h1 {
@@ -940,7 +940,7 @@ div.Tipos__Tercera__Parte__9 {
   margin: 30px;
   background-image: url(https://i.pinimg.com/originals/a3/86/d4/a386d4c7cf355541b3d9c087dd151b7c.png);
   background-size: cover;
-  border: 8px solid #000000;
+  border: 8px solid black;
   padding-top: 0px;
   padding-bottom: 0px;
 }
@@ -953,7 +953,7 @@ div#Inf9 {
   background-color: rgba(31, 31, 31, 0.9);
   -webkit-transition: opacity 1s;
   opacity: 0;
-  color: orange;
+  color: #F39A00;
 }
 
 div#Inf9 h1 {
@@ -998,7 +998,7 @@ div#Inf9:hover h2 {
 
 /*Cuarta parte de tipos de tattoo*/
 .Tipos__Cuarta__Parte {
-  background-color: #000000;
+  background-color: black;
   display: flex;
   justify-content: space-evenly;
   align-items: center;
@@ -1025,7 +1025,7 @@ div#Inf10 {
   background-color: rgba(31, 31, 31, 0.9);
   -webkit-transition: opacity 1s;
   opacity: 0;
-  color: orange;
+  color: #F39A00;
 }
 
 div#Inf10 h1 {
@@ -1088,7 +1088,7 @@ div#Inf11 {
   background-color: rgba(31, 31, 31, 0.9);
   -webkit-transition: opacity 1s;
   opacity: 0;
-  color: orange;
+  color: #F39A00;
 }
 
 div#Inf11 h1 {
@@ -1151,7 +1151,7 @@ div#Inf12 {
   background-color: rgba(31, 31, 31, 0.9);
   -webkit-transition: opacity 1s;
   opacity: 0;
-  color: orange;
+  color: #F39A00;
 }
 
 div#Inf12 h1 {
@@ -1211,7 +1211,7 @@ div.Tipos__Quinta__Parte__13 {
   background-image: url(https://luisaolvera.com/wp-content/uploads/2019/06/Tatuajes-Glifos-Dedos-300x300.jpg);
   background-size: cover;
   background-position: center;
-  border: 8px solid #000000;
+  border: 8px solid black;
   padding-top: 0px;
   padding-bottom: 0px;
 }
@@ -1224,7 +1224,7 @@ div#Inf13 {
   background-color: rgba(31, 31, 31, 0.9);
   -webkit-transition: opacity 1s;
   opacity: 0;
-  color: orange;
+  color: #F39A00;
 }
 
 div#Inf13 h1 {
@@ -1274,7 +1274,7 @@ div.Tipos__Quinta__Parte__14 {
   background-image: url(https://i.pinimg.com/originals/41/f2/16/41f216f2aeec8b5095d86a691af3a446.jpg);
   background-size: cover;
   background-position: center;
-  border: 8px solid #000000;
+  border: 8px solid black;
   padding-top: 0px;
   padding-bottom: 0px;
 }
@@ -1287,7 +1287,7 @@ div#Inf14 {
   background-color: rgba(31, 31, 31, 0.9);
   -webkit-transition: opacity 1s;
   opacity: 0;
-  color: orange;
+  color: #F39A00;
 }
 
 div#Inf14 h1 {
@@ -1337,7 +1337,7 @@ div.Tipos__Quinta__Parte__15 {
   background-image: url(https://www.minabo.com/wp-content/uploads/2018/10/98-3.jpg);
   background-size: cover;
   background-position: center;
-  border: 8px solid #000000;
+  border: 8px solid black;
   padding-top: 0px;
   padding-bottom: 0px;
 }
@@ -1350,7 +1350,7 @@ div#Inf15 {
   background-color: rgba(31, 31, 31, 0.9);
   -webkit-transition: opacity 1s;
   opacity: 0;
-  color: orange;
+  color: #F39A00;
 }
 
 div#Inf15 h1 {
@@ -1402,9 +1402,9 @@ div#Inf15:hover h2 {
   position: absolute;
   text-align: center;
   color: #F39A00;
-  font-size: 150px;
+  font-size: 100px;
   font-weight: bold;
-  font-family: "Times New Roman", sans-serif;
+  font-family: Georgia, "Times New Roman", Times, serif;
   margin-left: 15%;
 }
 
@@ -1423,10 +1423,10 @@ div#Inf15:hover h2 {
   font-family: Arial, sans-serif;
   color: #F39A00;
   text-align: center;
-  background-color: #000000;
+  background-color: black;
   border-radius: 0px;
   margin-bottom: 16px;
-  border: 8px solid #000000;
+  border: 8px solid black;
   padding-top: 0px;
   padding-bottom: 0px;
 }
@@ -1435,12 +1435,12 @@ div#Inf15:hover h2 {
   font-size: 20px;
   font-weight: lighter;
   font-family: Arial, sans-serif;
-  color: #000000;
+  color: black;
   text-align: left;
   background-color: #F39A00;
   border-radius: 4px;
   margin-bottom: 16px;
-  border: 8px solid #000000;
+  border: 8px solid black;
   padding-top: 0px;
   padding-bottom: 0px;
   margin-left: 0px;
@@ -1452,10 +1452,10 @@ div#Inf15:hover h2 {
   font-family: Arial, sans-serif;
   color: #F39A00;
   text-align: center;
-  background-color: #000000;
+  background-color: black;
   border-radius: 0px;
   margin-bottom: 16px;
-  border: 8px solid #000000;
+  border: 8px solid black;
   padding-top: 0px;
   padding-bottom: 0px;
 }
@@ -1464,12 +1464,12 @@ div#Inf15:hover h2 {
   font-size: 20px;
   font-weight: lighter;
   font-family: Arial, sans-serif;
-  color: #000000;
+  color: black;
   text-align: left;
   background-color: #F39A00;
   border-radius: 4px;
   margin-bottom: 16px;
-  border: 8px solid #000000;
+  border: 8px solid black;
   padding-top: 0px;
   padding-bottom: 0px;
   margin-left: 0px;
@@ -1488,14 +1488,14 @@ div#Inf15:hover h2 {
 
 .Formulario__Contacto {
   width: 650px;
-  background-color: black;
+  background-color: rgba(31, 31, 31, 0.9);
   padding: 25px;
   margin: auto;
   margin-top: 50px;
   border-radius: 4px;
-  border: 8px solid #000000;
-  font-family: "Calibri";
-  color: orange;
+  border: 8px solid black;
+  font-family: Arial, sans-serif;
+  color: #F39A00;
 }
 
 .Formulario__Imagen__1 {
@@ -1504,7 +1504,7 @@ div#Inf15:hover h2 {
   width: 600px;
   border-radius: 0px;
   margin-bottom: 16px;
-  border: 8px solid #000000;
+  border: 8px solid black;
 }
 
 .Formulario__Imagen__2 {
@@ -1513,7 +1513,12 @@ div#Inf15:hover h2 {
   width: 600px;
   border-radius: 0px;
   margin-bottom: 16px;
-  border: 8px solid #000000;
+  border: 8px solid black;
+}
+
+.Mapa {
+  width: 585px;
+  height: 400px;
 }
 
 .Contacto h2 {
@@ -1524,23 +1529,23 @@ div#Inf15:hover h2 {
 .control {
   color: #F39A00;
   width: 100%;
-  background: #000000;
+  background: rgba(31, 31, 31, 0.9);
   padding: 10px;
   border-radius: 4px;
   margin-bottom: 16px;
   border: 2px solid #F39A00;
-  font-family: "calibri";
+  font-family: Arial, sans-serif;
   font-size: 18px;
 }
 
 .boton {
-  color: #000000;
+  color: rgba(31, 31, 31, 0.9);
   width: 100%;
   background: #F39A00;
   padding: 10px;
   border-radius: 4px;
   margin-bottom: 16px;
   border: 2px solid #F39A00;
-  font-family: "calibri";
+  font-family: Arial, sans-serif;
   font-size: 18px;
 }

@@ -1,12 +1,13 @@
+@import "../SASS/variables";
 
 .Galeria__Titulo{
 position: absolute;
 text-align: center;
-color: #F39A00;
-font-size: 80px;
+color: $Color_Principal_2;
+font-size: $Tamano_Titulos;
 font-weight: bold;
-font-family: "Times New Roman", sans-serif;
-margin-left: 850px;
+font-family: $Fuente_Titulos;
+margin-left: 35%;
 }
 
 .GTC__Imagen {
@@ -19,7 +20,7 @@ width: 100%;
 
 /*Primera parte de galeria*/
 .Galeria__Primera__Parte {
-background-color: #F39A00;
+background-color: $Color_Principal_2;
 display: flex;justify-content: space-evenly; align-items: center;
 padding-top: 20px;
 padding-bottom: 20px; 
@@ -30,7 +31,7 @@ padding-bottom: 20px;
         width: 600px;
         height: 600px;
         background-size: contain;
-        border: 8px solid #000000;
+        border: 8px solid $Color_Principal_1;
         padding-top: 0px;
         padding-bottom: 0px;
     }
@@ -40,7 +41,7 @@ padding-bottom: 20px;
         width: 600px;
         height: 600px;
         background-size: contain;
-        border: 8px solid #000000;
+        border: 8px solid $Color_Principal_1;
         padding-top: 0px;
         padding-bottom: 0px;
     }
@@ -50,7 +51,7 @@ padding-bottom: 20px;
         width: 600px;
         height: 600px;
         background-size: contain;
-        border: 8px solid #000000;
+        border: 8px solid $Color_Principal_1;
         padding-top: 0px;
         padding-bottom: 0px;
     }
@@ -60,7 +61,7 @@ padding-bottom: 20px;
         width: 600px;
         height: 600px;
         background-size: contain;
-        border: 8px solid #000000;
+        border: 8px solid $Color_Principal_1;
         padding-top: 0px;
         padding-bottom: 0px;
     }
@@ -70,7 +71,7 @@ padding-bottom: 20px;
         width: 600px;
         height: 600px;
         background-size: contain;
-        border: 8px solid #000000;
+        border: 8px solid $Color_Principal_1;
         padding-top: 0px;
         padding-bottom: 0px;
     }
@@ -80,7 +81,7 @@ padding-bottom: 20px;
         width: 600px;
         height: 600px;
         background-size: contain;
-        border: 8px solid #000000;
+        border: 8px solid $Color_Principal_1;
         padding-top: 0px;
         padding-bottom: 0px;
     }
@@ -90,7 +91,7 @@ padding-bottom: 20px;
         width: 600px;
         height: 600px;
         background-size: contain;
-        border: 8px solid #000000;
+        border: 8px solid $Color_Principal_1;
         padding-top: 0px;
         padding-bottom: 0px;
     }
@@ -99,8 +100,8 @@ padding-bottom: 20px;
         background-image: url(../Tattos/T14.jpg);
         width: 600px;
         height: 600px;
-        background-size: contain;
-        border: 8px solid #000000;
+        background-size: cover;
+        border: 8px solid $Color_Principal_1;
         padding-top: 0px;
         padding-bottom: 0px;
     }
@@ -110,7 +111,7 @@ padding-bottom: 20px;
         width: 600px;
         height: 600px;
         background-size: contain;
-        border: 8px solid #000000;
+        border: 8px solid $Color_Principal_1;
         padding-top: 0px;
         padding-bottom: 0px;
     }
@@ -119,8 +120,8 @@ padding-bottom: 20px;
         background-image: url(../Tattos/T19.jpg);
         width: 600px;
         height: 600px;
-        background-size: contain;
-        border: 8px solid #000000;
+        background-size: cover;
+        border: 8px solid $Color_Principal_1;
         padding-top: 0px;
         padding-bottom: 0px;
     }
@@ -129,7 +130,7 @@ padding-bottom: 20px;
         width: 600px;
         height: 600px;
         background-size: contain;
-        border: 8px solid #000000;
+        border: 8px solid $Color_Principal_1;
         padding-top: 0px;
         padding-bottom: 0px;
     }
@@ -138,7 +139,7 @@ padding-bottom: 20px;
         width: 600px;
         height: 600px;
         background-size: contain;
-        border: 8px solid #000000;
+        border: 8px solid $Color_Principal_1;
         padding-top: 0px;
         padding-bottom: 0px;
     }
@@ -148,7 +149,7 @@ padding-bottom: 20px;
 
 /*Segunda parte de galeria*/
 .Galeria__Segunda__Parte {
-background-color: #000000;
+background-color: $Color_Principal_1;
 display: flex;justify-content: space-evenly; align-items: center;
 padding-top: 20px;
 padding-bottom: 20px;
@@ -159,7 +160,7 @@ padding-bottom: 20px;
         width: 600px;
         height: 600px;
         background-size: contain;
-        border: 8px solid #F39A00;
+        border: 8px solid $Color_Principal_2;
         padding-top: 0px;
         padding-bottom: 0px;
     }
@@ -169,7 +170,7 @@ padding-bottom: 20px;
         width: 600px;
         height: 600px;
         background-size: contain;
-        border: 8px solid #F39A00;
+        border: 8px solid $Color_Principal_2;
         padding-top: 0px;
         padding-bottom: 0px;
     }
@@ -179,7 +180,7 @@ padding-bottom: 20px;
         width: 600px;
         height: 600px;
         background-size: contain;
-        border: 8px solid #F39A00;
+        border: 8px solid $Color_Principal_2;
         padding-top: 0px;
         padding-bottom: 0px;
     }
@@ -189,7 +190,7 @@ padding-bottom: 20px;
         width: 600px;
         height: 600px;
         background-size: contain;
-        border: 8px solid #F39A00;
+        border: 8px solid $Color_Principal_2;
         padding-top: 0px;
         padding-bottom: 0px;
     }
@@ -199,7 +200,7 @@ padding-bottom: 20px;
         width: 600px;
         height: 600px;
         background-size: contain;
-        border: 8px solid #F39A00;
+        border: 8px solid $Color_Principal_2;
         padding-top: 0px;
         padding-bottom: 0px;
     }
@@ -209,7 +210,7 @@ padding-bottom: 20px;
         width: 600px;
         height: 600px;
         background-size: contain;
-        border: 8px solid #F39A00;
+        border: 8px solid $Color_Principal_2;
         padding-top: 0px;
         padding-bottom: 0px;
     }
@@ -219,7 +220,7 @@ padding-bottom: 20px;
         width: 600px;
         height: 600px;
         background-size: contain;
-        border: 8px solid #F39A00;
+        border: 8px solid $Color_Principal_2;
         padding-top: 0px;
         padding-bottom: 0px;
     }
@@ -229,7 +230,7 @@ padding-bottom: 20px;
         width: 600px;
         height: 600px;
         background-size: contain;
-        border: 8px solid #F39A00;
+        border: 8px solid $Color_Principal_2;
         padding-top: 0px;
         padding-bottom: 0px;
     }
@@ -239,7 +240,7 @@ padding-bottom: 20px;
         width: 600px;
         height: 600px;
         background-size: contain;
-        border: 8px solid #F39A00;
+        border: 8px solid $Color_Principal_2;
         padding-top: 0px;
         padding-bottom: 0px;
     }
@@ -250,7 +251,7 @@ padding-bottom: 20px;
 /*boton de ver mas*/
    
 .Boton {
-    background-color: #F39A00;
+    background-color: $Color_Principal_2;
     padding-top: 10px;
 }
 
