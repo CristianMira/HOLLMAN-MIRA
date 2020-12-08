@@ -52,11 +52,12 @@
 /*primera parte*/
 .Primera__Parte {
   background-color: black;
+  padding-bottom: 50px;
 }
 
 .Primera__Parte__Frase {
-  color: orange;
-  font-family: "Times New Roman", sans-serif;
+  color: #F39A00;
+  font-family: Arial, Helvetica, sans-serif;
   font-weight: bold;
   font-size: 460%;
   text-align: center;
@@ -66,7 +67,7 @@
 }
 
 .Primera__Parte__Autor {
-  color: orange;
+  color: #F39A00;
   font-family: "Times New Roman", sans-serif;
   font-weight: lighter;
   font-size: 400%;
@@ -85,6 +86,7 @@
   display: flex;
   justify-content: space-evenly;
   align-items: center;
+  padding-bottom: 50px;
 }
 
 .Segunda__Parte__Imagen {
@@ -95,7 +97,7 @@
 .Segunda__Parte__Texto {
   text-align: center;
   color: #F39A00;
-  font-family: "Times New Roman", sans-serif;
+  font-family: Arial, sans-serif;
   font-weight: lighter;
   font-size: 30px;
   width: 400px;
@@ -132,7 +134,7 @@
 .Tercera__Parte__Texto {
   text-align: center;
   color: #F39A00;
-  font-family: "Times New Roman", sans-serif;
+  font-family: Arial, sans-serif;
   font-weight: lighter;
   font-size: 30px;
   width: 400px;
@@ -1400,10 +1402,10 @@ div#Inf15:hover h2 {
   position: absolute;
   text-align: center;
   color: #F39A00;
-  font-size: 80px;
+  font-size: 150px;
   font-weight: bold;
   font-family: "Times New Roman", sans-serif;
-  margin-left: 30%;
+  margin-left: 15%;
 }
 
 .Cuidados {
