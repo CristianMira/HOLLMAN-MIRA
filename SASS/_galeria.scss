@@ -1,0 +1,260 @@
+
+.Galeria__Titulo{
+position: absolute;
+text-align: center;
+color: #F39A00;
+font-size: 80px;
+font-weight: bold;
+font-family: "Times New Roman", sans-serif;
+margin-left: 850px;
+}
+
+.GTC__Imagen {
+opacity: 1;
+width: 100%;
+}
+
+
+
+
+/*Primera parte de galeria*/
+.Galeria__Primera__Parte {
+background-color: #F39A00;
+display: flex;justify-content: space-evenly; align-items: center;
+padding-top: 20px;
+padding-bottom: 20px; 
+}
+
+    .Galeria__Primera__Parte__1{
+        background-image: url(../Tattos/T1.jpeg);
+        width: 600px;
+        height: 600px;
+        background-size: contain;
+        border: 8px solid #000000;
+        padding-top: 0px;
+        padding-bottom: 0px;
+    }
+
+    .Galeria__Primera__Parte__2{
+        background-image: url(../Tattos/T2.jpeg);
+        width: 600px;
+        height: 600px;
+        background-size: contain;
+        border: 8px solid #000000;
+        padding-top: 0px;
+        padding-bottom: 0px;
+    }
+
+    .Galeria__Primera__Parte__3{
+        background-image: url(../Tattos/T3.jpeg);
+        width: 600px;
+        height: 600px;
+        background-size: contain;
+        border: 8px solid #000000;
+        padding-top: 0px;
+        padding-bottom: 0px;
+    }
+
+    .Galeria__Primera__Parte__7{
+        background-image: url(../Tattos/T7.jpeg);
+        width: 600px;
+        height: 600px;
+        background-size: contain;
+        border: 8px solid #000000;
+        padding-top: 0px;
+        padding-bottom: 0px;
+    }
+
+    .Galeria__Primera__Parte__8{
+        background-image: url(../Tattos/T8.jpeg);
+        width: 600px;
+        height: 600px;
+        background-size: contain;
+        border: 8px solid #000000;
+        padding-top: 0px;
+        padding-bottom: 0px;
+    }
+
+    .Galeria__Primera__Parte__9{
+        background-image: url(../Tattos/T9.jpeg);
+        width: 600px;
+        height: 600px;
+        background-size: contain;
+        border: 8px solid #000000;
+        padding-top: 0px;
+        padding-bottom: 0px;
+    }
+
+    .Galeria__Primera__Parte__13{
+        background-image: url(../Tattos/T13.jpeg);
+        width: 600px;
+        height: 600px;
+        background-size: contain;
+        border: 8px solid #000000;
+        padding-top: 0px;
+        padding-bottom: 0px;
+    }
+
+    .Galeria__Primera__Parte__14{
+        background-image: url(../Tattos/T14.jpg);
+        width: 600px;
+        height: 600px;
+        background-size: contain;
+        border: 8px solid #000000;
+        padding-top: 0px;
+        padding-bottom: 0px;
+    }
+
+    .Galeria__Primera__Parte__15{
+        background-image: url(../Tattos/T15.jpg);
+        width: 600px;
+        height: 600px;
+        background-size: contain;
+        border: 8px solid #000000;
+        padding-top: 0px;
+        padding-bottom: 0px;
+    }
+
+    .Galeria__Primera__Parte__19{
+        background-image: url(../Tattos/T19.jpg);
+        width: 600px;
+        height: 600px;
+        background-size: contain;
+        border: 8px solid #000000;
+        padding-top: 0px;
+        padding-bottom: 0px;
+    }
+    .Galeria__Primera__Parte__20{
+        background-image: url(../Tattos/T20.jpg);
+        width: 600px;
+        height: 600px;
+        background-size: contain;
+        border: 8px solid #000000;
+        padding-top: 0px;
+        padding-bottom: 0px;
+    }
+    .Galeria__Primera__Parte__21{
+        background-image: url(../Tattos/T21.jpg);
+        width: 600px;
+        height: 600px;
+        background-size: contain;
+        border: 8px solid #000000;
+        padding-top: 0px;
+        padding-bottom: 0px;
+    }
+
+
+
+
+/*Segunda parte de galeria*/
+.Galeria__Segunda__Parte {
+background-color: #000000;
+display: flex;justify-content: space-evenly; align-items: center;
+padding-top: 20px;
+padding-bottom: 20px;
+}
+
+    .Galeria__Segunda__Parte__4{
+        background-image: url(../Tattos/T4.jpeg);
+        width: 600px;
+        height: 600px;
+        background-size: contain;
+        border: 8px solid #F39A00;
+        padding-top: 0px;
+        padding-bottom: 0px;
+    }
+
+    .Galeria__Segunda__Parte__5{
+        background-image: url(../Tattos/T5.jpeg);
+        width: 600px;
+        height: 600px;
+        background-size: contain;
+        border: 8px solid #F39A00;
+        padding-top: 0px;
+        padding-bottom: 0px;
+    }
+
+    .Galeria__Segunda__Parte__6{
+        background-image: url(../Tattos/T6.jpeg);
+        width: 600px;
+        height: 600px;
+        background-size: contain;
+        border: 8px solid #F39A00;
+        padding-top: 0px;
+        padding-bottom: 0px;
+    }
+
+    .Galeria__Segunda__Parte__10{
+        background-image: url(../Tattos/T10.jpeg);
+        width: 600px;
+        height: 600px;
+        background-size: contain;
+        border: 8px solid #F39A00;
+        padding-top: 0px;
+        padding-bottom: 0px;
+    }
+
+    .Galeria__Segunda__Parte__11{
+        background-image: url(../Tattos/T11.jpeg);
+        width: 600px;
+        height: 600px;
+        background-size: contain;
+        border: 8px solid #F39A00;
+        padding-top: 0px;
+        padding-bottom: 0px;
+    }
+
+    .Galeria__Segunda__Parte__12{
+        background-image: url(../Tattos/T12.jpeg);
+        width: 600px;
+        height: 600px;
+        background-size: contain;
+        border: 8px solid #F39A00;
+        padding-top: 0px;
+        padding-bottom: 0px;
+    }
+
+    .Galeria__Segunda__Parte__16{
+        background-image: url(../Tattos/T16.jpeg);
+        width: 600px;
+        height: 600px;
+        background-size: contain;
+        border: 8px solid #F39A00;
+        padding-top: 0px;
+        padding-bottom: 0px;
+    }
+
+    .Galeria__Segunda__Parte__17{
+        background-image: url(../Tattos/T17.jpg);
+        width: 600px;
+        height: 600px;
+        background-size: contain;
+        border: 8px solid #F39A00;
+        padding-top: 0px;
+        padding-bottom: 0px;
+    }
+
+    .Galeria__Segunda__Parte__18{
+        background-image: url(../Tattos/T18.jpg);
+        width: 600px;
+        height: 600px;
+        background-size: contain;
+        border: 8px solid #F39A00;
+        padding-top: 0px;
+        padding-bottom: 0px;
+    }
+
+
+
+
+/*boton de ver mas*/
+   
+.Boton {
+    background-color: #F39A00;
+    padding-top: 10px;
+}
+
+.Boton__Vermas {
+    text-align: center;
+    margin-left: 45%;
+}

@@ -1,0 +1,65 @@
+/*Contacto*/
+.Contacto {
+    background-color: #F39A00;
+}
+.Formulario {
+    display: flex; justify-content: space-evenly; align-items: center;
+
+}
+.Formulario__Contacto {
+    width: 650px;
+    background-color: black;
+    padding: 25px;
+    margin: auto;
+    margin-top: 50px;
+    border-radius: 4px;
+    border: 8px solid #000000;
+    font-family: "Calibri";
+    color: orange;
+}
+ .Formulario__Imagen__1{
+    margin-left: 10px;
+    margin-top: 50px;
+    width: 600px;
+    border-radius: 0px;
+    margin-bottom: 16px;
+    border: 8px solid #000000;
+ }
+ .Formulario__Imagen__2{
+    margin-right: 10px;
+    margin-top: 50px;
+    width: 600px;
+    border-radius: 0px;
+    margin-bottom: 16px;
+    border: 8px solid #000000;
+ }
+
+.Contacto h2 {
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+
+.control {
+    color:  #F39A00;
+    width: 100%;
+    background: #000000;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border: 2px solid #F39A00;
+    font-family: "calibri";
+    font-size: 18px;
+    
+}   
+
+.boton {
+    color: #000000;
+    width: 100%;
+    background: #F39A00;
+    padding:  10px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border: 2px solid #F39A00;
+    font-family: "calibri";
+    font-size: 18px;
+}

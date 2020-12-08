@@ -1,0 +1,45 @@
+/*Encabezado*/
+.Encabezado{
+    background-color: black;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 10px,
+}
+    .Logo__Inicio {
+        margin-right: 45%;   
+    }
+    
+
+/*Menu*/
+    .navbar {
+        background-color: black!important;
+    }
+
+    .nav-link{
+        color: orange!important;
+        font-size: 22px;
+    }
+
+    .navbar-toggler{
+        margin-left: 5px;
+    }
+
+    .navbar-toggler-icon{
+        color: orange!important;
+ }
+
+
+//  footer
+    .Pie__Pagina {
+        background-color: black;
+    } 
+
+    .Redes{
+        padding-top: 50px;
+        padding-bottom: 50px;
+        margin: 0;
+        margin-left: 40%;
+        list-style: none;
+        display: flex; align-items: center;
+    }

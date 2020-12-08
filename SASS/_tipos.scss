@@ -1,0 +1,912 @@
+
+/*Titulo*/
+.Tipos__Titulo {
+    position: absolute;
+    text-align: center;
+    color: #F39A00;
+    font-size: 80px;
+    font-weight: bold;
+    font-family: "Times New Roman", sans-serif;
+    margin-left: 650px;
+}
+
+
+
+
+
+/*Primera parte de tipos de tattoo*/
+.Tipos__Primera__Parte {
+    background-color:#F39A00;
+    display: flex; justify-content: space-evenly; align-items: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+} 
+    /* foto 1 2 3 */
+    div.Tipos__Primera__Parte__1 {
+        width: 550px;
+        height: 700px;
+        background-image: url(https://i.pinimg.com/originals/46/29/f8/4629f818baae9e61bac3ae8dedea07d2.jpg);
+        border: 8px solid #000000;
+        padding-top: 0px;
+        padding-bottom: 0px;
+    }
+        div#Inf {
+            width: 535px;
+            height: 685px;
+            position: absolute;
+            overflow: hidden;
+            background-color: rgba(31, 31, 31, 0.9);
+            -webkit-transition: opacity 1s;
+            opacity: 0;
+            color: orange;
+        }
+            div#Inf h1{
+                font-size: 40px;
+                font-weight: bold;
+                font-family: Arial, sans-serif;
+                color: #F39A00;
+                text-align: center;
+                padding-top: 80px;
+                padding-bottom: 80px;
+                position: absolute;
+                margin-left: -200px;
+            }
+                div#Inf h2{
+                    font-size: 20px;
+                    font-weight: lighter;
+                    font-family: Arial, sans-serif;
+                    color: white;
+                    text-align: center;
+                    padding-top: 0px;
+                    padding-bottom: 0px;
+                    width: 300px;
+                    position: absolute;
+                    margin-left: 120px;
+                    margin-top: -350px;
+                }
+                        div.Tipos__Primera__Parte__1:hover div#Inf {
+                            opacity: 1;
+                        }
+                            div#Inf:hover h1 {
+                                margin-left: 170px;
+                                -webkit-transition: margin 1s;
+                                
+                            }
+                                div#Inf:hover h2 {
+                                    margin-top: 220px;
+                                    -webkit-transition: margin 1s;
+
+                                }
+
+    div.Tipos__Primera__Parte__2 {
+        width: 550px;
+        height: 700px;
+        margin: 30px;
+        background-image: url(https://i.pinimg.com/originals/5e/45/c5/5e45c553b2af4a565ab15ec321119f7f.jpg);
+        background-position: center;
+        border: 8px solid #000000;
+        padding-top: 0px;
+        padding-bottom: 0px;
+    }
+        div#Inf2 {
+            width: 535px;
+            height: 685px;
+            position: absolute;
+            overflow: hidden;
+            background-color: rgba(31, 31, 31, 0.9);
+            -webkit-transition: opacity 1s;
+            opacity: 0;
+            color: orange;
+        }
+            div#Inf2 h1{
+                font-size: 40px;
+                font-weight: bold;
+                font-family: Arial, sans-serif;
+                color: #F39A00;
+                text-align: center;
+                padding-top: 80px;
+                padding-bottom: 80px;
+                position: absolute;
+                margin-left: -230px;
+            }
+                div#Inf2 h2{
+                    font-size: 20px;
+                    font-weight: lighter;
+                    font-family: Arial, sans-serif;
+                    color: white;
+                    text-align: center;
+                    padding-top: 0px;
+                    padding-bottom: 0px;
+                    width: 300px;
+                    position: absolute;
+                    margin-left: 120px;
+                    margin-top: -380px;
+                    }
+                        div.Tipos__Primera__Parte__2:hover div#Inf2 {
+                            opacity: 1;
+                        }
+                            div#Inf2:hover h1 {
+                                margin-left: 155px;
+                                -webkit-transition: margin 1s;
+                            }
+                                div#Inf2:hover h2 {
+                                    margin-top: 220px;
+                                    -webkit-transition: margin 1s;
+                                }
+                        
+    div.Tipos__Primera__Parte__3 {
+        width: 550px;
+        height: 700px;
+        margin: 30px;
+        background-image: url(https://st2.depositphotos.com/1024849/7014/v/600/depositphotos_70143447-stock-illustration-maori-tattoo-design.jpg);
+        background-position: center;
+        border: 8px solid #000000;
+        padding-top: 0px;
+        padding-bottom: 0px;
+    }
+        div#Inf3 {
+            width: 535px;
+            height: 685px;
+            position: absolute;
+            overflow: hidden;
+            background-color: rgba(31, 31, 31, 0.9);
+            -webkit-transition: opacity 1s;
+            opacity: 0;
+            color: orange;
+        }
+            div#Inf3 h1{
+                font-size: 40px;
+                font-weight: bold;
+                font-family: Arial, sans-serif;
+                color: #F39A00;
+                text-align: center;
+                padding-top: 80px;
+                padding-bottom: 80px;
+                position: absolute;
+                margin-left: -430px;
+            }
+                div#Inf3 h2{
+                    font-size: 20px;
+                    font-weight: lighter;
+                    font-family: Arial, sans-serif;
+                    color: white;
+                    text-align: center;
+                    padding-top: 0px;
+                    padding-bottom: 0px;
+                    width: 300px;
+                    position: absolute;
+                    margin-left: 120px;
+                    margin-top: -350px;
+                }
+                        div.Tipos__Primera__Parte__3:hover div#Inf3 {
+                            opacity: 1;
+                        }
+                            div#Inf3:hover h1{
+                                margin-left: 190px;
+                                -webkit-transition: margin 1s;
+                            }
+                                div#Inf3:hover h2{
+                                    margin-top: 220px;
+                                    -webkit-transition: margin 1s;
+                                }
+
+
+
+
+/*Segunda parte de tipos de tattoo*/
+.Tipos__Segunda__Parte {
+    background-color: #000000;
+    display: flex; justify-content: space-evenly; align-items: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+    /* foto 4 5 6 */
+    div.Tipos__Segunda__Parte__4 {
+        width: 495px;
+        height: 700px;
+        margin: 30px;
+        background-image: url(https://i.pinimg.com/originals/28/d4/50/28d4508c6b119cc7594bc93c83698295.jpg);
+        background-position: center;
+        border: 8px solid #F39A00;
+        padding-top: 0px;
+        padding-bottom: 0px;
+    }
+        div#Inf4 {
+            width: 480px;
+            height: 685px;
+            position: absolute;
+            overflow: hidden;
+            background-color: rgba(31, 31, 31, 0.9);
+            -webkit-transition: opacity 1s;
+            opacity: 0;
+            color: orange;
+        }
+            div#Inf4 h1{
+                font-size: 40px;
+                font-weight: bold;
+                font-family: Arial, sans-serif;
+                color: #F39A00;
+                text-align: center;
+                padding-top: 80px;
+                padding-bottom: 80px;
+                position: absolute;
+                margin-left: -430px;
+            }
+                div#Inf4 h2{
+                    font-size: 20px;
+                    font-weight: lighter;
+                    font-family: Arial, sans-serif;
+                    color: white;
+                    text-align: center;
+                    padding-top: 0px;
+                    padding-bottom: 0px;
+                    width: 300px;
+                    position: absolute;
+                    margin-left: 90px;
+                    margin-top: -350px;
+                }
+                        div.Tipos__Segunda__Parte__4:hover div#Inf4 {
+                            opacity: 1;
+                    }
+                            div#Inf4:hover h1 {
+                                margin-left: 150px;
+                                -webkit-transition: margin 1s;
+                            }
+                                div#Inf4:hover h2 {
+                                    margin-top: 220px;
+                                    -webkit-transition: margin 1s;
+                                }
+
+    div.Tipos__Segunda__Parte__5 {
+        width: 550px;
+        height: 550px;
+        margin: 30px;
+        background-image: url(https://www.tatuantes.com/wp-content/uploads/2019/12/tatuajes-tradicionales-americanos-830x555.jpg);
+        background-position: center;
+        border: 8px solid #F39A00;
+        padding-top: 0px;
+        padding-bottom: 0px;
+    }
+        div#Inf5 {
+            width: 535px;
+            height: 535px;
+            position: absolute;
+            overflow: hidden;
+            background-color: rgba(31, 31, 31, 0.9);
+            -webkit-transition: opacity 1s;
+            opacity: 0;
+            color: orange;
+        }
+            div#Inf5 h1{
+                font-size: 40px;
+                font-weight: bold;
+                font-family: Arial, sans-serif;
+                color: #F39A00;
+                text-align: center;
+                padding-top: 80px;
+                padding-bottom: 80px;
+                position: absolute;
+                margin-left: -430px;
+            }
+                div#Inf5 h2{
+                    font-size: 20px;
+                    font-weight: lighter;
+                    font-family: Arial, sans-serif;
+                    color: white;
+                    text-align: center;
+                    padding-top: 0px;
+                    padding-bottom: 0px;
+                    width: 300px;
+                    position: absolute;
+                    margin-left: 120px;
+                    margin-top: -450px;
+                }
+                        div.Tipos__Segunda__Parte__5:hover div#Inf5 {
+                            opacity: 1;
+                    }
+                        div#Inf5:hover h1 {
+                            margin-left: 130px;
+                            -webkit-transition: margin 1s;
+                        }
+                            div#Inf5:hover h2 {
+                                margin-top: 220px;
+                                -webkit-transition: margin 1s;
+                            }
+
+    div.Tipos__Segunda__Parte__6 {
+        width: 550px;
+        height: 700px;
+        margin: 30px;
+        background-image: url(https://i.pinimg.com/originals/ff/d2/95/ffd295eb712589da642d99a1747bf5be.jpg);
+        background-position: center;
+        border: 8px solid #F39A00;
+        padding-top: 0px;
+        padding-bottom: 0px;
+    }
+        div#Inf6 {
+            width: 535px;
+            height: 685px;
+            position: absolute;
+            overflow: hidden;
+            background-color: rgba(31, 31, 31, 0.9);
+            -webkit-transition: opacity 1s;
+            opacity: 0;
+            color: orange;
+        }
+            div#Inf6 h1{
+                font-size: 40px;
+                font-weight: bold;
+                font-family: Arial, sans-serif;
+                color: #F39A00;
+                text-align: center;
+                padding-top: 80px;
+                padding-bottom: 80px;
+                position: absolute;
+                margin-left: -430px;
+            }
+                div#Inf6 h2{
+                    font-size: 20px;
+                    font-weight: lighter;
+                    font-family: Arial, sans-serif;
+                    color: white;
+                    text-align: center;
+                    padding-top: 0px;
+                    padding-bottom: 0px;
+                    width: 300px;
+                    position: absolute;
+                    margin-left: 120px;
+                    margin-top: -450px;
+                }
+                        div.Tipos__Segunda__Parte__6:hover div#Inf6 {
+                            opacity: 1;
+                    }
+                        div#Inf6:hover h1 {
+                            margin-left: 100px;
+                            -webkit-transition: margin 1s;
+                        }
+                            div#Inf6:hover h2 {
+                                margin-top: 220px;
+                                -webkit-transition: margin 1s;
+                            }
+
+/*Tercera parte de tipos de tattoo*/
+.Tipos__Tercera__Parte {
+    background-color: #F39A00;
+    display: flex; justify-content: space-evenly; align-items: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+    /* foto 7 8 9 */
+
+    div.Tipos__Tercera__Parte__7 {
+        width: 550px;
+        height: 700px;
+        background-image: url(https://latatoueuse.com/es/images/octubre4/tatuaje-gotico-57.jpg);
+        background-size: cover;
+        border: 8px solid #000000;
+        padding-top: 0px;
+        padding-bottom: 0px;
+    }
+        div#Inf7 {
+            width: 535px;
+            height: 685px;
+            position: absolute;
+            overflow: hidden;
+            background-color: rgba(31, 31, 31, 0.9);
+            -webkit-transition: opacity 1s;
+            opacity: 0;
+            color: orange;
+        }
+            div#Inf7 h1{
+                font-size: 40px;
+                font-weight: bold;
+                font-family: Arial, sans-serif;
+                color: #F39A00;
+                text-align: center;
+                padding-top: 80px;
+                padding-bottom: 80px;
+                position: absolute;
+                margin-left: -430px;
+            }
+                div#Inf7 h2{
+                    font-size: 20px;
+                    font-weight: lighter;
+                    font-family: Arial, sans-serif;
+                    color: white;
+                    text-align: center;
+                    padding-top: 0px;
+                    padding-bottom: 0px;
+                    width: 300px;
+                    position: absolute;
+                    margin-left: 120px;
+                    margin-top: -350px;
+                }
+                        div.Tipos__Tercera__Parte__7:hover div#Inf7 {
+                            opacity: 1;
+                    }
+                        div#Inf7:hover h1 {
+                            margin-left: 180px;
+                            -webkit-transition: margin 1s;
+                        }
+                            div#Inf7:hover h2 {
+                                margin-top: 220px;
+                                -webkit-transition: margin 1s;
+                            }
+
+    div.Tipos__Tercera__Parte__8 {
+        width: 550px;
+        height: 700px;
+        margin: 30px;
+        background-image: url(https://i.pinimg.com/originals/ea/b5/b5/eab5b523029b47dcbab60c307a1a52a8.jpg);
+        background-size: cover;
+        background-position: center;
+        border: 8px solid #000000;
+        padding-top: 0px;
+        padding-bottom: 0px;
+    }
+        div#Inf8 {
+            width: 535px;
+            height: 685px;
+            position: absolute;
+            overflow: hidden;
+            background-color: rgba(31, 31, 31, 0.9);
+            -webkit-transition: opacity 1s;
+            opacity: 0;
+            color: orange;
+        }
+            div#Inf8 h1{
+                font-size: 40px;
+                font-weight: bold;
+                font-family: Arial, sans-serif;
+                color: #F39A00;
+                text-align: center;
+                padding-top: 80px;
+                padding-bottom: 80px;
+                position: absolute;
+                margin-left: -430px;
+            }
+                div#Inf8 h2{
+                    font-size: 20px;
+                    font-weight: lighter;
+                    font-family: Arial, sans-serif;
+                    color: white;
+                    text-align: center;
+                    padding-top: 0px;
+                    padding-bottom: 0px;
+                    width: 300px;
+                    position: absolute;
+                    margin-left: 120px;
+                    margin-top: -350px;
+                }
+                        div.Tipos__Tercera__Parte__8:hover div#Inf8 {
+                            opacity: 1;
+                    }
+                        div#Inf8:hover h1 {
+                            margin-left: 160px;
+                            -webkit-transition: margin 1s;
+                        }
+                            div#Inf8:hover h2 {
+                                margin-top: 220px;
+                                -webkit-transition: margin 1s;
+                            }
+
+    div.Tipos__Tercera__Parte__9 {
+        width: 550px;
+        height: 700px;
+        margin: 30px;
+        background-image: url(https://i.pinimg.com/originals/a3/86/d4/a386d4c7cf355541b3d9c087dd151b7c.png);
+        background-size: cover;
+        border: 8px solid #000000;
+        padding-top: 0px;
+        padding-bottom: 0px;
+    }
+        div#Inf9 {
+            width: 535px;
+            height: 685px;
+            position: absolute;
+            overflow: hidden;
+            background-color: rgba(31, 31, 31, 0.9);
+            -webkit-transition: opacity 1s;
+            opacity: 0;
+            color: orange;
+        }
+            div#Inf9 h1{
+                font-size: 40px;
+                font-weight: bold;
+                font-family: Arial, sans-serif;
+                color: #F39A00;
+                text-align: center;
+                padding-top: 80px;
+                padding-bottom: 80px;
+                position: absolute;
+                margin-left: -430px;
+            }
+                div#Inf9 h2{
+                    font-size: 20px;
+                    font-weight: lighter;
+                    font-family: Arial, sans-serif;
+                    color: white;
+                    text-align: center;
+                    padding-top: 0px;
+                    padding-bottom: 0px;
+                    width: 300px;
+                    position: absolute;
+                    margin-left: 120px;
+                    margin-top: -350px;
+                }
+                        div.Tipos__Tercera__Parte__9:hover div#Inf9 {
+                            opacity: 1;
+                    }
+                        div#Inf9:hover h1 {
+                            margin-left: 120px;
+                            -webkit-transition: margin 1s;
+                        }
+                            div#Inf9:hover h2 {
+                                margin-top: 220px;
+                                -webkit-transition: margin 1s;
+                            }
+
+
+
+
+
+/*Cuarta parte de tipos de tattoo*/
+.Tipos__Cuarta__Parte {
+    background-color: #000000;
+    display: flex; justify-content: space-evenly; align-items: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+/* foto 10 11 12 */
+
+div.Tipos__Cuarta__Parte__10 {
+    width: 550px;
+    height: 700px;
+    background-image: url(https://i.pinimg.com/564x/07/7e/f5/077ef5fbbb78fc57f76d4e7feb69bf7c.jpg);
+    background-size: cover;
+    border: 8px solid #F39A00;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+    div#Inf10 {
+        width: 535px;
+        height: 685px;
+        position: absolute;
+        overflow: hidden;
+        background-color: rgba(31, 31, 31, 0.9);
+        -webkit-transition: opacity 1s;
+        opacity: 0;
+        color: orange;
+    }
+        div#Inf10 h1{
+            font-size: 40px;
+            font-weight: bold;
+            font-family: Arial, sans-serif;
+            color: #F39A00;
+            text-align: center;
+            padding-top: 80px;
+            padding-bottom: 80px;
+            position: absolute;
+            margin-left: -430px;
+        }
+            div#Inf10 h2{
+                font-size: 20px;
+                font-weight: lighter;
+                font-family: Arial, sans-serif;
+                color: white;
+                text-align: center;
+                padding-top: 0px;
+                padding-bottom: 0px;
+                width: 300px;
+                position: absolute;
+                margin-left: 120px;
+                margin-top: -350px;
+            }
+                    div.Tipos__Cuarta__Parte__10:hover div#Inf10 {
+                        opacity: 1;
+                }
+                    div#Inf10:hover h1 {
+                        margin-left: 160px;
+                        -webkit-transition: margin 1s;
+                    }
+                        div#Inf10:hover h2 {
+                            margin-top: 220px;
+                            -webkit-transition: margin 1s;
+                        }
+
+div.Tipos__Cuarta__Parte__11 {
+    width: 550px;
+    height: 700px;
+    margin: 30px;
+    background-image: url(https://i.pinimg.com/originals/d6/2f/3f/d62f3f2b30d6f03678b8facd93b4a31b.jpg);
+    background-size: cover;
+    background-position: center;
+    border: 8px solid #F39A00;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+    div#Inf11 {
+        width: 535px;
+        height: 685px;
+        position: absolute;
+        overflow: hidden;
+        background-color: rgba(31, 31, 31, 0.9);
+        -webkit-transition: opacity 1s;
+        opacity: 0;
+        color: orange;
+    }
+        div#Inf11 h1{
+            font-size: 40px;
+            font-weight: bold;
+            font-family: Arial, sans-serif;
+            color: #F39A00;
+            text-align: center;
+            padding-top: 80px;
+            padding-bottom: 80px;
+            position: absolute;
+            margin-left: -430px;
+        }
+            div#Inf11 h2{
+                font-size: 20px;
+                font-weight: lighter;
+                font-family: Arial, sans-serif;
+                color: white;
+                text-align: center;
+                padding-top: 0px;
+                padding-bottom: 0px;
+                width: 300px;
+                position: absolute;
+                margin-left: 120px;
+                margin-top: -350px;
+            }
+                    div.Tipos__Cuarta__Parte__11:hover div#Inf11 {
+                        opacity: 1;
+                }
+                    div#Inf11:hover h1 {
+                        margin-left: 170px;
+                        -webkit-transition: margin 1s;
+                    }
+                        div#Inf11:hover h2 {
+                            margin-top: 220px;
+                            -webkit-transition: margin 1s;
+                        }
+
+div.Tipos__Cuarta__Parte__12 {
+    width: 550px;
+    height: 700px;
+    margin: 30px;
+    background-image: url(https://www.minabo.com/wp-content/uploads/2019/12/52-8.jpg);
+    background-size: cover;
+    background-position: center;
+    border: 8px solid #F39A00;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+    div#Inf12 {
+        width: 535px;
+        height: 685px;
+        position: absolute;
+        overflow: hidden;
+        background-color: rgba(31, 31, 31, 0.9);
+        -webkit-transition: opacity 1s;
+        opacity: 0;
+        color: orange;
+    }
+        div#Inf12 h1{
+            font-size: 40px;
+            font-weight: bold;
+            font-family: Arial, sans-serif;
+            color: #F39A00;
+            text-align: center;
+            padding-top: 80px;
+            padding-bottom: 80px;
+            position: absolute;
+            margin-left: -430px;
+        }
+            div#Inf12 h2{
+                font-size: 20px;
+                font-weight: lighter;
+                font-family: Arial, sans-serif;
+                color: white;
+                text-align: center;
+                padding-top: 0px;
+                padding-bottom: 0px;
+                width: 300px;
+                position: absolute;
+                margin-left: 120px;
+                margin-top: -350px;
+            }
+                    div.Tipos__Cuarta__Parte__12:hover div#Inf12 {
+                        opacity: 1;
+                }
+                    div#Inf12:hover h1 {
+                        margin-left: 170px;
+                        -webkit-transition: margin 1s;
+                    }
+                        div#Inf12:hover h2 {
+                            margin-top: 220px;
+                            -webkit-transition: margin 1s;
+                        }
+
+
+
+
+
+/*Quinta parte de tipos de tattoo*/
+.Tipos__Quinta__Parte {
+    background-color: #F39A00;
+    display: flex; justify-content: space-evenly; align-items: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+/* foto 13 14 15 */
+
+div.Tipos__Quinta__Parte__13 {
+    width: 550px;
+    height: 700px;
+    background-image: url(https://luisaolvera.com/wp-content/uploads/2019/06/Tatuajes-Glifos-Dedos-300x300.jpg);
+    background-size: cover;
+    background-position: center;
+    border: 8px solid #000000;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+    div#Inf13 {
+        width: 535px;
+        height: 685px;
+        position: absolute;
+        overflow: hidden;
+        background-color: rgba(31, 31, 31, 0.9);
+        -webkit-transition: opacity 1s;
+        opacity: 0;
+        color: orange;
+    }
+        div#Inf13 h1{
+            font-size: 40px;
+            font-weight: bold;
+            font-family: Arial, sans-serif;
+            color: #F39A00;
+            text-align: center;
+            padding-top: 80px;
+            padding-bottom: 80px;
+            position: absolute;
+            margin-left: -430px;
+        }
+            div#Inf13 h2{
+                font-size: 20px;
+                font-weight: lighter;
+                font-family: Arial, sans-serif;
+                color: white;
+                text-align: center;
+                padding-top: 0px;
+                padding-bottom: 0px;
+                width: 300px;
+                position: absolute;
+                margin-left: 120px;
+                margin-top: -350px;
+            }
+                    div.Tipos__Quinta__Parte__13:hover div#Inf13 {
+                        opacity: 1;
+                }
+                    div#Inf13:hover h1 {
+                        margin-left: 180px;
+                        -webkit-transition: margin 1s;
+                    }
+                        div#Inf13:hover h2 {
+                            margin-top: 220px;
+                            -webkit-transition: margin 1s;
+                        }
+
+div.Tipos__Quinta__Parte__14 {
+    width: 550px;
+    height: 700px;
+    margin: 30px;
+    background-image: url(https://i.pinimg.com/originals/41/f2/16/41f216f2aeec8b5095d86a691af3a446.jpg);
+    background-size: cover;
+    background-position: center;
+    border: 8px solid #000000;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+    div#Inf14 {
+        width: 535px;
+        height: 685px;
+        position: absolute;
+        overflow: hidden;
+        background-color: rgba(31, 31, 31, 0.9);
+        -webkit-transition: opacity 1s;
+        opacity: 0;
+        color: orange;
+    }
+        div#Inf14 h1{
+            font-size: 40px;
+            font-weight: bold;
+            font-family: Arial, sans-serif;
+            color: #F39A00;
+            text-align: center;
+            padding-top: 80px;
+            padding-bottom: 80px;
+            position: absolute;
+            margin-left: -430px;
+        }
+            div#Inf14 h2{
+                font-size: 20px;
+                font-weight: lighter;
+                font-family: Arial, sans-serif;
+                color: white;
+                text-align: center;
+                padding-top: 0px;
+                padding-bottom: 0px;
+                width: 300px;
+                position: absolute;
+                margin-left: 120px;
+                margin-top: -350px;
+            }
+                    div.Tipos__Quinta__Parte__14:hover div#Inf14 {
+                        opacity: 1;
+                }
+                    div#Inf14:hover h1 {
+                        margin-left: 60px;
+                        -webkit-transition: margin 1s;
+                    }
+                        div#Inf14:hover h2 {
+                            margin-top: 220px;
+                            -webkit-transition: margin 1s;
+                        }
+
+div.Tipos__Quinta__Parte__15 {
+    width: 550px;
+    height: 700px;
+    margin: 30px;
+    background-image: url(https://www.minabo.com/wp-content/uploads/2018/10/98-3.jpg);
+    background-size: cover;
+    background-position: center;
+    border: 8px solid #000000;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+    div#Inf15 {
+        width: 535px;
+        height: 685px;
+        position: absolute;
+        overflow: hidden;
+        background-color: rgba(31, 31, 31, 0.9);
+        -webkit-transition: opacity 1s;
+        opacity: 0;
+        color: orange;
+    }
+        div#Inf15 h1{
+            font-size: 40px;
+            font-weight: bold;
+            font-family: Arial, sans-serif;
+            color: #F39A00;
+            text-align: center;
+            padding-top: 80px;
+            padding-bottom: 80px;
+            position: absolute;
+            margin-left: -430px;
+        }
+            div#Inf15 h2{
+                font-size: 20px;
+                font-weight: lighter;
+                font-family: Arial, sans-serif;
+                color: white;
+                text-align: center;
+                padding-top: 0px;
+                padding-bottom: 0px;
+                width: 300px;
+                position: absolute;
+                margin-left: 120px;
+                margin-top: -350px;
+            }
+                    div.Tipos__Quinta__Parte__15:hover div#Inf15 {
+                        opacity: 1;
+                }
+                    div#Inf15:hover h1 {
+                        margin-left: 140px;
+                        -webkit-transition: margin 1s;
+                    }
+                        div#Inf15:hover h2 {
+                            margin-top: 220px;
+                            -webkit-transition: margin 1s;
+                        }
