@@ -7,7 +7,11 @@
     padding-right: 10px,
 }
     .Logo__Inicio {
-        margin-right: 45%;   
+        margin-right: 45%; 
+        
+        @media screen and (max-width: 700px) {
+            margin-right: 25%;
+        }
     }
     
 
@@ -42,4 +46,8 @@
         margin-left: 40%;
         list-style: none;
         display: flex; align-items: center;
+
+        @media screen and (max-width: 700px) {
+            margin-left: 28%;
+        }
     }

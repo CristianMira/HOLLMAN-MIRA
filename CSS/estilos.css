@@ -16,6 +16,11 @@
 .Logo__Inicio {
   margin-right: 45%;
 }
+@media screen and (max-width: 700px) {
+  .Logo__Inicio {
+    margin-right: 25%;
+  }
+}
 
 /*Menu*/
 .navbar {
@@ -48,6 +53,11 @@
   display: flex;
   align-items: center;
 }
+@media screen and (max-width: 700px) {
+  .Redes {
+    margin-left: 28%;
+  }
+}
 
 /*primera parte*/
 .Primera__Parte {
@@ -65,6 +75,13 @@
   padding-top: 1800px;
   margin-left: 100px;
 }
+@media screen and (max-width: 768px) {
+  .Primera__Parte__Frase {
+    font-size: 180%;
+    padding-top: 480px;
+    margin-left: 1%;
+  }
+}
 
 .Primera__Parte__Autor {
   color: #F39A00;
@@ -74,6 +91,13 @@
   position: absolute;
   padding-left: 100px;
   padding-top: 2000px;
+}
+@media screen and (max-width: 768px) {
+  .Primera__Parte__Autor {
+    font-size: 160%;
+    padding-left: 49px;
+    padding-top: 590px;
+  }
 }
 
 .Primera__Parte__Imagen {
@@ -88,10 +112,23 @@
   align-items: center;
   padding-bottom: 50px;
 }
+@media screen and (max-width: 768px) {
+  .Segunda__Parte {
+    display: block;
+    align-items: center;
+    padding-bottom: 0px;
+  }
+}
 
 .Segunda__Parte__Imagen {
   width: 700px;
   padding-top: 20px;
+}
+@media screen and (max-width: 768px) {
+  .Segunda__Parte__Imagen {
+    width: 70%;
+    margin: 15%;
+  }
 }
 
 .Segunda__Parte__Texto {
@@ -102,18 +139,11 @@
   font-size: 30px;
   width: 400px;
 }
-
-/* Video */
-.Video {
-  background-color: black;
-}
-
-.Video video {
-  width: 80%;
-  margin-left: 180px;
-  border-radius: 4px;
-  margin-bottom: 16px;
-  border: 4px solid #F39A00;
+@media screen and (max-width: 768px) {
+  .Segunda__Parte__Texto {
+    margin: 12%;
+    font-size: 25px;
+  }
 }
 
 /*tercera parte*/
@@ -122,6 +152,13 @@
   display: flex;
   justify-content: space-evenly;
   align-items: center;
+  padding-bottom: 50px;
+}
+@media screen and (max-width: 768px) {
+  .Tercera__Parte {
+    display: block;
+    align-items: center;
+  }
 }
 
 .Tercera__Parte__Imagen {
@@ -129,6 +166,13 @@
   padding-top: 20px;
   padding-top: 50px;
   padding-bottom: 50px;
+}
+@media screen and (max-width: 768px) {
+  .Tercera__Parte__Imagen {
+    width: 70%;
+    display: block;
+    margin: 15%;
+  }
 }
 
 .Tercera__Parte__Texto {
@@ -138,6 +182,26 @@
   font-weight: lighter;
   font-size: 30px;
   width: 400px;
+}
+@media screen and (max-width: 768px) {
+  .Tercera__Parte__Texto {
+    margin: 12%;
+    font-size: 25px;
+  }
+}
+
+/* Video */
+.Video {
+  background-color: black;
+}
+
+.Video video {
+  width: 80%;
+  margin-left: 12%;
+  border-radius: 4px;
+  margin-bottom: 16px;
+  border: 4px solid #F39A00;
+  padding-top: 0px;
 }
 
 .Galeria__Titulo {
