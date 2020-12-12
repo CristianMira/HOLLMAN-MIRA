@@ -213,6 +213,12 @@
   font-family: Georgia, "Times New Roman", Times, serif;
   margin-left: 35%;
 }
+@media screen and (max-width: 768px) {
+  .Galeria__Titulo {
+    font-size: 500%;
+    margin-left: 5%;
+  }
+}
 
 .GTC__Imagen {
   opacity: 1;
@@ -228,6 +234,11 @@
   padding-top: 20px;
   padding-bottom: 20px;
 }
+@media screen and (max-width: 768px) {
+  .Galeria__Primera__Parte {
+    display: block;
+  }
+}
 
 .Galeria__Primera__Parte__1 {
   background-image: url(../Tattos/T1.jpeg);
@@ -237,6 +248,15 @@
   border: 8px solid black;
   padding-top: 0px;
   padding-bottom: 0px;
+}
+@media screen and (max-width: 768px) {
+  .Galeria__Primera__Parte__1 {
+    width: 400px;
+    height: 400px;
+    background-size: cover;
+    margin-left: 10%;
+    border: 4px solid black;
+  }
 }
 
 .Galeria__Primera__Parte__2 {
@@ -248,6 +268,15 @@
   padding-top: 0px;
   padding-bottom: 0px;
 }
+@media screen and (max-width: 768px) {
+  .Galeria__Primera__Parte__2 {
+    width: 400px;
+    height: 400px;
+    background-size: cover;
+    margin-left: 10%;
+    border: 4px solid black;
+  }
+}
 
 .Galeria__Primera__Parte__3 {
   background-image: url(../Tattos/T3.jpeg);
@@ -257,6 +286,15 @@
   border: 8px solid black;
   padding-top: 0px;
   padding-bottom: 0px;
+}
+@media screen and (max-width: 768px) {
+  .Galeria__Primera__Parte__3 {
+    width: 400px;
+    height: 400px;
+    background-size: cover;
+    margin-left: 10%;
+    border: 4px solid black;
+  }
 }
 
 .Galeria__Primera__Parte__7 {
@@ -268,6 +306,15 @@
   padding-top: 0px;
   padding-bottom: 0px;
 }
+@media screen and (max-width: 768px) {
+  .Galeria__Primera__Parte__7 {
+    width: 400px;
+    height: 400px;
+    background-size: cover;
+    margin-left: 10%;
+    border: 4px solid black;
+  }
+}
 
 .Galeria__Primera__Parte__8 {
   background-image: url(../Tattos/T8.jpeg);
@@ -277,6 +324,15 @@
   border: 8px solid black;
   padding-top: 0px;
   padding-bottom: 0px;
+}
+@media screen and (max-width: 768px) {
+  .Galeria__Primera__Parte__8 {
+    width: 400px;
+    height: 400px;
+    background-size: cover;
+    margin-left: 10%;
+    border: 4px solid black;
+  }
 }
 
 .Galeria__Primera__Parte__9 {
@@ -288,6 +344,15 @@
   padding-top: 0px;
   padding-bottom: 0px;
 }
+@media screen and (max-width: 768px) {
+  .Galeria__Primera__Parte__9 {
+    width: 400px;
+    height: 400px;
+    background-size: cover;
+    margin-left: 10%;
+    border: 4px solid black;
+  }
+}
 
 .Galeria__Primera__Parte__13 {
   background-image: url(../Tattos/T13.jpeg);
@@ -297,6 +362,15 @@
   border: 8px solid black;
   padding-top: 0px;
   padding-bottom: 0px;
+}
+@media screen and (max-width: 768px) {
+  .Galeria__Primera__Parte__13 {
+    width: 400px;
+    height: 400px;
+    background-size: cover;
+    margin-left: 10%;
+    border: 4px solid black;
+  }
 }
 
 .Galeria__Primera__Parte__14 {
@@ -308,6 +382,15 @@
   padding-top: 0px;
   padding-bottom: 0px;
 }
+@media screen and (max-width: 768px) {
+  .Galeria__Primera__Parte__14 {
+    width: 400px;
+    height: 400px;
+    background-size: cover;
+    margin-left: 10%;
+    border: 4px solid black;
+  }
+}
 
 .Galeria__Primera__Parte__15 {
   background-image: url(../Tattos/T15.jpg);
@@ -317,6 +400,15 @@
   border: 8px solid black;
   padding-top: 0px;
   padding-bottom: 0px;
+}
+@media screen and (max-width: 768px) {
+  .Galeria__Primera__Parte__15 {
+    width: 400px;
+    height: 400px;
+    background-size: cover;
+    margin-left: 10%;
+    border: 4px solid black;
+  }
 }
 
 .Galeria__Primera__Parte__19 {
@@ -328,6 +420,15 @@
   padding-top: 0px;
   padding-bottom: 0px;
 }
+@media screen and (max-width: 768px) {
+  .Galeria__Primera__Parte__19 {
+    width: 400px;
+    height: 400px;
+    background-size: cover;
+    margin-left: 10%;
+    border: 4px solid black;
+  }
+}
 
 .Galeria__Primera__Parte__20 {
   background-image: url(../Tattos/T20.jpg);
@@ -337,6 +438,15 @@
   border: 8px solid black;
   padding-top: 0px;
   padding-bottom: 0px;
+}
+@media screen and (max-width: 768px) {
+  .Galeria__Primera__Parte__20 {
+    width: 400px;
+    height: 400px;
+    background-size: cover;
+    margin-left: 10%;
+    border: 4px solid black;
+  }
 }
 
 .Galeria__Primera__Parte__21 {
@@ -348,6 +458,15 @@
   padding-top: 0px;
   padding-bottom: 0px;
 }
+@media screen and (max-width: 768px) {
+  .Galeria__Primera__Parte__21 {
+    width: 400px;
+    height: 400px;
+    background-size: cover;
+    margin-left: 10%;
+    border: 4px solid black;
+  }
+}
 
 /*Segunda parte de galeria*/
 .Galeria__Segunda__Parte {
@@ -357,6 +476,11 @@
   align-items: center;
   padding-top: 20px;
   padding-bottom: 20px;
+}
+@media screen and (max-width: 768px) {
+  .Galeria__Segunda__Parte {
+    display: block;
+  }
 }
 
 .Galeria__Segunda__Parte__4 {
@@ -368,6 +492,15 @@
   padding-top: 0px;
   padding-bottom: 0px;
 }
+@media screen and (max-width: 768px) {
+  .Galeria__Segunda__Parte__4 {
+    width: 400px;
+    height: 400px;
+    background-size: cover;
+    margin-left: 10%;
+    border: 4px solid #F39A00;
+  }
+}
 
 .Galeria__Segunda__Parte__5 {
   background-image: url(../Tattos/T5.jpeg);
@@ -377,6 +510,15 @@
   border: 8px solid #F39A00;
   padding-top: 0px;
   padding-bottom: 0px;
+}
+@media screen and (max-width: 768px) {
+  .Galeria__Segunda__Parte__5 {
+    width: 400px;
+    height: 400px;
+    background-size: cover;
+    margin-left: 10%;
+    border: 4px solid #F39A00;
+  }
 }
 
 .Galeria__Segunda__Parte__6 {
@@ -388,6 +530,15 @@
   padding-top: 0px;
   padding-bottom: 0px;
 }
+@media screen and (max-width: 768px) {
+  .Galeria__Segunda__Parte__6 {
+    width: 400px;
+    height: 400px;
+    background-size: cover;
+    margin-left: 10%;
+    border: 4px solid #F39A00;
+  }
+}
 
 .Galeria__Segunda__Parte__10 {
   background-image: url(../Tattos/T10.jpeg);
@@ -397,6 +548,15 @@
   border: 8px solid #F39A00;
   padding-top: 0px;
   padding-bottom: 0px;
+}
+@media screen and (max-width: 768px) {
+  .Galeria__Segunda__Parte__10 {
+    width: 400px;
+    height: 400px;
+    background-size: cover;
+    margin-left: 10%;
+    border: 4px solid #F39A00;
+  }
 }
 
 .Galeria__Segunda__Parte__11 {
@@ -408,6 +568,15 @@
   padding-top: 0px;
   padding-bottom: 0px;
 }
+@media screen and (max-width: 768px) {
+  .Galeria__Segunda__Parte__11 {
+    width: 400px;
+    height: 400px;
+    background-size: cover;
+    margin-left: 10%;
+    border: 4px solid #F39A00;
+  }
+}
 
 .Galeria__Segunda__Parte__12 {
   background-image: url(../Tattos/T12.jpeg);
@@ -417,6 +586,15 @@
   border: 8px solid #F39A00;
   padding-top: 0px;
   padding-bottom: 0px;
+}
+@media screen and (max-width: 768px) {
+  .Galeria__Segunda__Parte__12 {
+    width: 400px;
+    height: 400px;
+    background-size: cover;
+    margin-left: 10%;
+    border: 4px solid #F39A00;
+  }
 }
 
 .Galeria__Segunda__Parte__16 {
@@ -428,6 +606,15 @@
   padding-top: 0px;
   padding-bottom: 0px;
 }
+@media screen and (max-width: 768px) {
+  .Galeria__Segunda__Parte__16 {
+    width: 400px;
+    height: 400px;
+    background-size: cover;
+    margin-left: 10%;
+    border: 4px solid #F39A00;
+  }
+}
 
 .Galeria__Segunda__Parte__17 {
   background-image: url(../Tattos/T17.jpg);
@@ -438,6 +625,15 @@
   padding-top: 0px;
   padding-bottom: 0px;
 }
+@media screen and (max-width: 768px) {
+  .Galeria__Segunda__Parte__17 {
+    width: 400px;
+    height: 400px;
+    background-size: cover;
+    margin-left: 10%;
+    border: 4px solid #F39A00;
+  }
+}
 
 .Galeria__Segunda__Parte__18 {
   background-image: url(../Tattos/T18.jpg);
@@ -447,6 +643,15 @@
   border: 8px solid #F39A00;
   padding-top: 0px;
   padding-bottom: 0px;
+}
+@media screen and (max-width: 768px) {
+  .Galeria__Segunda__Parte__18 {
+    width: 400px;
+    height: 400px;
+    background-size: cover;
+    margin-left: 10%;
+    border: 4px solid #F39A00;
+  }
 }
 
 /*boton de ver mas*/
@@ -470,6 +675,12 @@
   font-family: Georgia, "Times New Roman", Times, serif;
   margin-left: 30%;
 }
+@media screen and (max-width: 768px) {
+  .Tipos__Titulo {
+    font-size: 500%;
+    margin-left: 5%;
+  }
+}
 
 /*Primera parte de tipos de tattoo*/
 .Tipos__Primera__Parte {
@@ -480,6 +691,11 @@
   padding-top: 10px;
   padding-bottom: 10px;
 }
+@media screen and (max-width: 768px) {
+  .Tipos__Primera__Parte {
+    display: block;
+  }
+}
 
 /* foto 1 2 3 */
 div.Tipos__Primera__Parte__1 {
@@ -489,6 +705,15 @@ div.Tipos__Primera__Parte__1 {
   border: 8px solid black;
   padding-top: 0px;
   padding-bottom: 0px;
+}
+@media screen and (max-width: 768px) {
+  div.Tipos__Primera__Parte__1 {
+    width: 400px;
+    height: 400px;
+    background-size: cover;
+    margin-left: 10%;
+    border: 4px solid black;
+  }
 }
 
 div#Inf {
@@ -501,6 +726,14 @@ div#Inf {
   opacity: 0;
   color: #F39A00;
 }
+@media screen and (max-width: 768px) {
+  div#Inf {
+    width: 392px;
+    height: 392px;
+    position: absolute;
+    overflow: hidden;
+  }
+}
 
 div#Inf h1 {
   font-size: 40px;
@@ -512,6 +745,12 @@ div#Inf h1 {
   padding-bottom: 80px;
   position: absolute;
   margin-left: -200px;
+}
+@media screen and (max-width: 768px) {
+  div#Inf h1 {
+    font-size: 30px;
+    padding-top: 60px;
+  }
 }
 
 div#Inf h2 {
@@ -527,6 +766,12 @@ div#Inf h2 {
   margin-left: 120px;
   margin-top: -350px;
 }
+@media screen and (max-width: 768px) {
+  div#Inf h2 {
+    font-size: 20px;
+    margin-left: 60px;
+  }
+}
 
 div.Tipos__Primera__Parte__1:hover div#Inf {
   opacity: 1;
@@ -536,10 +781,20 @@ div#Inf:hover h1 {
   margin-left: 170px;
   -webkit-transition: margin 1s;
 }
+@media screen and (max-width: 768px) {
+  div#Inf:hover h1 {
+    margin-left: 130px;
+  }
+}
 
 div#Inf:hover h2 {
   margin-top: 220px;
   -webkit-transition: margin 1s;
+}
+@media screen and (max-width: 768px) {
+  div#Inf:hover h2 {
+    margin-top: 100px;
+  }
 }
 
 div.Tipos__Primera__Parte__2 {
@@ -552,6 +807,15 @@ div.Tipos__Primera__Parte__2 {
   padding-top: 0px;
   padding-bottom: 0px;
 }
+@media screen and (max-width: 768px) {
+  div.Tipos__Primera__Parte__2 {
+    width: 400px;
+    height: 400px;
+    background-size: cover;
+    margin-left: 10%;
+    border: 4px solid black;
+  }
+}
 
 div#Inf2 {
   width: 535px;
@@ -562,6 +826,14 @@ div#Inf2 {
   -webkit-transition: opacity 1s;
   opacity: 0;
   color: #F39A00;
+}
+@media screen and (max-width: 768px) {
+  div#Inf2 {
+    width: 392px;
+    height: 392px;
+    position: absolute;
+    overflow: hidden;
+  }
 }
 
 div#Inf2 h1 {
@@ -574,6 +846,12 @@ div#Inf2 h1 {
   padding-bottom: 80px;
   position: absolute;
   margin-left: -230px;
+}
+@media screen and (max-width: 768px) {
+  div#Inf2 h1 {
+    font-size: 30px;
+    padding-top: 60px;
+  }
 }
 
 div#Inf2 h2 {
@@ -589,6 +867,12 @@ div#Inf2 h2 {
   margin-left: 120px;
   margin-top: -380px;
 }
+@media screen and (max-width: 768px) {
+  div#Inf2 h2 {
+    font-size: 20px;
+    margin-left: 60px;
+  }
+}
 
 div.Tipos__Primera__Parte__2:hover div#Inf2 {
   opacity: 1;
@@ -598,10 +882,20 @@ div#Inf2:hover h1 {
   margin-left: 155px;
   -webkit-transition: margin 1s;
 }
+@media screen and (max-width: 768px) {
+  div#Inf2:hover h1 {
+    margin-left: 130px;
+  }
+}
 
 div#Inf2:hover h2 {
-  margin-top: 220px;
+  margin-top: 230px;
   -webkit-transition: margin 1s;
+}
+@media screen and (max-width: 768px) {
+  div#Inf2:hover h2 {
+    margin-top: 50px;
+  }
 }
 
 div.Tipos__Primera__Parte__3 {
@@ -614,6 +908,15 @@ div.Tipos__Primera__Parte__3 {
   padding-top: 0px;
   padding-bottom: 0px;
 }
+@media screen and (max-width: 768px) {
+  div.Tipos__Primera__Parte__3 {
+    width: 400px;
+    height: 400px;
+    background-size: cover;
+    margin-left: 10%;
+    border: 4px solid black;
+  }
+}
 
 div#Inf3 {
   width: 535px;
@@ -624,6 +927,14 @@ div#Inf3 {
   -webkit-transition: opacity 1s;
   opacity: 0;
   color: #F39A00;
+}
+@media screen and (max-width: 768px) {
+  div#Inf3 {
+    width: 392px;
+    height: 392px;
+    position: absolute;
+    overflow: hidden;
+  }
 }
 
 div#Inf3 h1 {
@@ -636,6 +947,12 @@ div#Inf3 h1 {
   padding-bottom: 80px;
   position: absolute;
   margin-left: -430px;
+}
+@media screen and (max-width: 768px) {
+  div#Inf3 h1 {
+    font-size: 30px;
+    padding-top: 60px;
+  }
 }
 
 div#Inf3 h2 {
@@ -651,6 +968,12 @@ div#Inf3 h2 {
   margin-left: 120px;
   margin-top: -350px;
 }
+@media screen and (max-width: 768px) {
+  div#Inf3 h2 {
+    font-size: 20px;
+    margin-left: 60px;
+  }
+}
 
 div.Tipos__Primera__Parte__3:hover div#Inf3 {
   opacity: 1;
@@ -660,10 +983,20 @@ div#Inf3:hover h1 {
   margin-left: 190px;
   -webkit-transition: margin 1s;
 }
+@media screen and (max-width: 768px) {
+  div#Inf3:hover h1 {
+    margin-left: 130px;
+  }
+}
 
 div#Inf3:hover h2 {
   margin-top: 220px;
   -webkit-transition: margin 1s;
+}
+@media screen and (max-width: 768px) {
+  div#Inf3:hover h2 {
+    margin-top: 100px;
+  }
 }
 
 /*Segunda parte de tipos de tattoo*/

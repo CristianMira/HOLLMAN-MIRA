@@ -1,18 +1,23 @@
 @import "../SASS/variables";
 
 .Galeria__Titulo{
-position: absolute;
-text-align: center;
-color: $Color_Principal_2;
-font-size: $Tamano_Titulos;
-font-weight: bold;
-font-family: $Fuente_Titulos;
-margin-left: 35%;
+    position: absolute;
+    text-align: center;
+    color: $Color_Principal_2;
+    font-size: $Tamano_Titulos;
+    font-weight: bold;
+    font-family: $Fuente_Titulos;
+    margin-left: 35%;
+
+    @media screen and (max-width: 768px) {
+        font-size: 500%;
+        margin-left: 5%;
+    }
 }
 
 .GTC__Imagen {
-opacity: 1;
-width: 100%;
+    opacity: 1;
+    width: 100%;
 }
 
 
@@ -20,10 +25,14 @@ width: 100%;
 
 /*Primera parte de galeria*/
 .Galeria__Primera__Parte {
-background-color: $Color_Principal_2;
-display: flex;justify-content: space-evenly; align-items: center;
-padding-top: 20px;
-padding-bottom: 20px; 
+    background-color: $Color_Principal_2;
+    display: flex;justify-content: space-evenly; align-items: center;
+    padding-top: 20px;
+    padding-bottom: 20px; 
+
+    @media screen and (max-width: 768px) {
+        display: block;
+    }
 }
 
     .Galeria__Primera__Parte__1{
@@ -34,6 +43,14 @@ padding-bottom: 20px;
         border: 8px solid $Color_Principal_1;
         padding-top: 0px;
         padding-bottom: 0px;
+
+        @media screen and (max-width: 768px) {
+            width: 400px;
+            height: 400px;
+            background-size: cover;
+            margin-left: 10%;  
+            border: 4px solid $Color_Principal_1 ;
+        }
     }
 
     .Galeria__Primera__Parte__2{
@@ -44,6 +61,14 @@ padding-bottom: 20px;
         border: 8px solid $Color_Principal_1;
         padding-top: 0px;
         padding-bottom: 0px;
+
+        @media screen and (max-width: 768px) {
+            width: 400px;
+            height: 400px;
+            background-size: cover;
+            margin-left: 10%;
+            border: 4px solid $Color_Principal_1;
+        }
     }
 
     .Galeria__Primera__Parte__3{
@@ -54,6 +79,14 @@ padding-bottom: 20px;
         border: 8px solid $Color_Principal_1;
         padding-top: 0px;
         padding-bottom: 0px;
+
+        @media screen and (max-width: 768px) {
+            width: 400px;
+            height: 400px;
+            background-size: cover;
+            margin-left: 10%;
+            border: 4px solid $Color_Principal_1;
+        }
     }
 
     .Galeria__Primera__Parte__7{
@@ -64,6 +97,14 @@ padding-bottom: 20px;
         border: 8px solid $Color_Principal_1;
         padding-top: 0px;
         padding-bottom: 0px;
+
+        @media screen and (max-width: 768px) {
+            width: 400px;
+            height: 400px;
+            background-size: cover;
+            margin-left: 10%;
+            border: 4px solid $Color_Principal_1;
+        }
     }
 
     .Galeria__Primera__Parte__8{
@@ -74,6 +115,14 @@ padding-bottom: 20px;
         border: 8px solid $Color_Principal_1;
         padding-top: 0px;
         padding-bottom: 0px;
+
+        @media screen and (max-width: 768px) {
+            width: 400px;
+            height: 400px;
+            background-size: cover;
+            margin-left: 10%;
+            border: 4px solid $Color_Principal_1;
+        }
     }
 
     .Galeria__Primera__Parte__9{
@@ -84,6 +133,14 @@ padding-bottom: 20px;
         border: 8px solid $Color_Principal_1;
         padding-top: 0px;
         padding-bottom: 0px;
+
+        @media screen and (max-width: 768px) {
+            width: 400px;
+            height: 400px;
+            background-size: cover;
+            margin-left: 10%;
+            border: 4px solid $Color_Principal_1;
+        }
     }
 
     .Galeria__Primera__Parte__13{
@@ -94,6 +151,14 @@ padding-bottom: 20px;
         border: 8px solid $Color_Principal_1;
         padding-top: 0px;
         padding-bottom: 0px;
+
+        @media screen and (max-width: 768px) {
+            width: 400px;
+            height: 400px;
+            background-size: cover;
+            margin-left: 10%;
+            border: 4px solid $Color_Principal_1;
+        }
     }
 
     .Galeria__Primera__Parte__14{
@@ -104,6 +169,14 @@ padding-bottom: 20px;
         border: 8px solid $Color_Principal_1;
         padding-top: 0px;
         padding-bottom: 0px;
+
+        @media screen and (max-width: 768px) {
+            width: 400px;
+            height: 400px;
+            background-size: cover;
+            margin-left: 10%;
+            border: 4px solid $Color_Principal_1;
+        }
     }
 
     .Galeria__Primera__Parte__15{
@@ -114,6 +187,14 @@ padding-bottom: 20px;
         border: 8px solid $Color_Principal_1;
         padding-top: 0px;
         padding-bottom: 0px;
+
+        @media screen and (max-width: 768px) {
+            width: 400px;
+            height: 400px;
+            background-size: cover;
+            margin-left: 10%;
+            border: 4px solid $Color_Principal_1;
+        }
     }
 
     .Galeria__Primera__Parte__19{
@@ -124,6 +205,14 @@ padding-bottom: 20px;
         border: 8px solid $Color_Principal_1;
         padding-top: 0px;
         padding-bottom: 0px;
+
+        @media screen and (max-width: 768px) {
+            width: 400px;
+            height: 400px;
+            background-size: cover;
+            margin-left: 10%;
+            border: 4px solid $Color_Principal_1;
+        }
     }
     .Galeria__Primera__Parte__20{
         background-image: url(../Tattos/T20.jpg);
@@ -133,6 +222,14 @@ padding-bottom: 20px;
         border: 8px solid $Color_Principal_1;
         padding-top: 0px;
         padding-bottom: 0px;
+
+        @media screen and (max-width: 768px) {
+            width: 400px;
+            height: 400px;
+            background-size: cover;
+            margin-left: 10%;
+            border: 4px solid $Color_Principal_1;
+        }
     }
     .Galeria__Primera__Parte__21{
         background-image: url(../Tattos/T21.jpg);
@@ -142,6 +239,14 @@ padding-bottom: 20px;
         border: 8px solid $Color_Principal_1;
         padding-top: 0px;
         padding-bottom: 0px;
+
+        @media screen and (max-width: 768px) {
+            width: 400px;
+            height: 400px;
+            background-size: cover;
+            margin-left: 10%;
+            border: 4px solid $Color_Principal_1;
+        }
     }
 
 
@@ -149,10 +254,14 @@ padding-bottom: 20px;
 
 /*Segunda parte de galeria*/
 .Galeria__Segunda__Parte {
-background-color: $Color_Principal_1;
-display: flex;justify-content: space-evenly; align-items: center;
-padding-top: 20px;
-padding-bottom: 20px;
+    background-color: $Color_Principal_1;
+    display: flex;justify-content: space-evenly; align-items: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+    @media screen and (max-width: 768px) {
+    display: block;
+}
 }
 
     .Galeria__Segunda__Parte__4{
@@ -163,6 +272,14 @@ padding-bottom: 20px;
         border: 8px solid $Color_Principal_2;
         padding-top: 0px;
         padding-bottom: 0px;
+
+        @media screen and (max-width: 768px) {
+            width: 400px;
+            height: 400px;
+            background-size: cover;
+            margin-left: 10%;
+            border: 4px solid $Color_Principal_2;
+        }
     }
 
     .Galeria__Segunda__Parte__5{
@@ -173,6 +290,14 @@ padding-bottom: 20px;
         border: 8px solid $Color_Principal_2;
         padding-top: 0px;
         padding-bottom: 0px;
+
+        @media screen and (max-width: 768px) {
+            width: 400px;
+            height: 400px;
+            background-size: cover;
+            margin-left: 10%;
+            border: 4px solid $Color_Principal_2;
+        }
     }
 
     .Galeria__Segunda__Parte__6{
@@ -183,6 +308,14 @@ padding-bottom: 20px;
         border: 8px solid $Color_Principal_2;
         padding-top: 0px;
         padding-bottom: 0px;
+
+        @media screen and (max-width: 768px) {
+            width: 400px;
+            height: 400px;
+            background-size: cover;
+            margin-left: 10%;
+            border: 4px solid $Color_Principal_2;
+        }
     }
 
     .Galeria__Segunda__Parte__10{
@@ -193,6 +326,14 @@ padding-bottom: 20px;
         border: 8px solid $Color_Principal_2;
         padding-top: 0px;
         padding-bottom: 0px;
+
+        @media screen and (max-width: 768px) {
+            width: 400px;
+            height: 400px;
+            background-size: cover;
+            margin-left: 10%;
+            border: 4px solid $Color_Principal_2;
+        }
     }
 
     .Galeria__Segunda__Parte__11{
@@ -203,6 +344,14 @@ padding-bottom: 20px;
         border: 8px solid $Color_Principal_2;
         padding-top: 0px;
         padding-bottom: 0px;
+
+        @media screen and (max-width: 768px) {
+            width: 400px;
+            height: 400px;
+            background-size: cover;
+            margin-left: 10%;
+            border: 4px solid $Color_Principal_2;
+        }
     }
 
     .Galeria__Segunda__Parte__12{
@@ -213,6 +362,14 @@ padding-bottom: 20px;
         border: 8px solid $Color_Principal_2;
         padding-top: 0px;
         padding-bottom: 0px;
+
+        @media screen and (max-width: 768px) {
+            width: 400px;
+            height: 400px;
+            background-size: cover;
+            margin-left: 10%;
+            border: 4px solid $Color_Principal_2;
+        }
     }
 
     .Galeria__Segunda__Parte__16{
@@ -223,6 +380,14 @@ padding-bottom: 20px;
         border: 8px solid $Color_Principal_2;
         padding-top: 0px;
         padding-bottom: 0px;
+
+        @media screen and (max-width: 768px) {
+            width: 400px;
+            height: 400px;
+            background-size: cover;
+            margin-left: 10%;
+            border: 4px solid $Color_Principal_2;
+        }
     }
 
     .Galeria__Segunda__Parte__17{
@@ -233,6 +398,14 @@ padding-bottom: 20px;
         border: 8px solid $Color_Principal_2;
         padding-top: 0px;
         padding-bottom: 0px;
+
+        @media screen and (max-width: 768px) {
+            width: 400px;
+            height: 400px;
+            background-size: cover;
+            margin-left: 10%;
+            border: 4px solid $Color_Principal_2;
+        }
     }
 
     .Galeria__Segunda__Parte__18{
@@ -243,6 +416,14 @@ padding-bottom: 20px;
         border: 8px solid $Color_Principal_2;
         padding-top: 0px;
         padding-bottom: 0px;
+
+        @media screen and (max-width: 768px) {
+            width: 400px;
+            height: 400px;
+            background-size: cover;
+            margin-left: 10%;
+            border: 4px solid $Color_Principal_2;
+        }
     }
 
 
