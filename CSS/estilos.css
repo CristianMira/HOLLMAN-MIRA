@@ -850,7 +850,7 @@ div#Inf2 h1 {
 @media screen and (max-width: 768px) {
   div#Inf2 h1 {
     font-size: 30px;
-    padding-top: 60px;
+    padding-top: 10px;
   }
 }
 
@@ -889,7 +889,7 @@ div#Inf2:hover h1 {
 }
 
 div#Inf2:hover h2 {
-  margin-top: 230px;
+  margin-top: 220px;
   -webkit-transition: margin 1s;
 }
 @media screen and (max-width: 768px) {
@@ -985,7 +985,7 @@ div#Inf3:hover h1 {
 }
 @media screen and (max-width: 768px) {
   div#Inf3:hover h1 {
-    margin-left: 130px;
+    margin-left: 140px;
   }
 }
 
