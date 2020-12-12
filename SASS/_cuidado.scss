@@ -13,6 +13,11 @@
     font-weight: bold;
     font-family: $Fuente_Titulos;
     margin-left: 15%;
+
+    @media screen and (max-width: 768px) {
+        font-size: 500%;
+        margin-left: 5%;
+    }
 }
 
 .Cuidados {
@@ -20,6 +25,10 @@
     display: flex; justify-content: space-evenly; align-items: center;
     padding-top: 50px;
     padding-bottom: 50px;
+
+    @media screen and (max-width: 768px) {
+        display: block;
+    }
 }
 
     .Cuidados__Lista__1 h2 {
@@ -35,13 +44,22 @@
         padding-top: 0px;
         padding-bottom: 0px;
 
+        @media screen and (max-width: 768px) {
+            font-size: 30px;
+            border-radius: 0px;
+            margin-bottom: 16px;
+            border: 4px solid $Color_Principal_1;
+            padding-top: 0px;
+            padding-bottom: 0px;
+        }
+
     }
         .Cuidados__Lista__1 {
             font-size: 20px;
-            font-weight: lighter;
+            font-weight: bold;
             font-family: Arial, sans-serif;
             color: $Color_Principal_1;
-            text-align: left;
+            text-align: center;
             background-color: $Color_Principal_2;
             border-radius: 4px;
             margin-bottom: 16px;
@@ -49,7 +67,31 @@
             padding-top: 0px;
             padding-bottom: 0px;
             margin-left: 0px;
+
+            @media screen and (max-width: 768px) {
+                font-size: 15px;
+                font-weight: bold;
+                text-align: center;
+                border-radius: 0px;
+                margin-bottom: 16px;
+                border: 4px solid $Color_Principal_1;
+                padding-top: 0px;
+                padding-bottom: 0px;
+                margin-left: 0px; 
+            }
         }
+
+    .Cuidados__Imagen {
+        width: 600px;
+        
+
+        @media screen and (max-width: 768px) {
+            width: 400px;
+            margin-left: 10%;
+            padding-bottom: 20px;
+           
+        }
+    }
 
     .Cuidados__Lista__2 h2 {
         font-size: 40px;
@@ -63,6 +105,15 @@
         border: 8px solid $Color_Principal_1;
         padding-top: 0px;
         padding-bottom: 0px;
+
+        @media screen and (max-width: 768px) {
+            font-size: 30px;
+            border-radius: 0px;
+            margin-bottom: 16px;
+            border: 4px solid $Color_Principal_1;
+            padding-top: 0px;
+            padding-bottom: 0px;
+        }
 
     }
         .Cuidados__Lista__2 {
@@ -78,4 +129,16 @@
             padding-top: 0px;
             padding-bottom: 0px;
             margin-left: 0px;
+
+            @media screen and (max-width: 768px) {
+                font-size: 15px;
+                font-weight: bold;
+                text-align: center;
+                border-radius: 0px;
+                margin-bottom: 16px;
+                border: 4px solid $Color_Principal_1;
+                padding-top: 0px;
+                padding-bottom: 0px;
+                margin-left: 0px; 
+            }
         }

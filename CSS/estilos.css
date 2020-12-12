@@ -1008,6 +1008,11 @@ div#Inf3:hover h2 {
   padding-top: 10px;
   padding-bottom: 10px;
 }
+@media screen and (max-width: 768px) {
+  .Tipos__Segunda__Parte {
+    display: block;
+  }
+}
 
 /* foto 4 5 6 */
 div.Tipos__Segunda__Parte__4 {
@@ -1020,6 +1025,15 @@ div.Tipos__Segunda__Parte__4 {
   padding-top: 0px;
   padding-bottom: 0px;
 }
+@media screen and (max-width: 768px) {
+  div.Tipos__Segunda__Parte__4 {
+    width: 400px;
+    height: 400px;
+    background-size: cover;
+    margin-left: 10%;
+    border: 4px solid #F39A00;
+  }
+}
 
 div#Inf4 {
   width: 480px;
@@ -1030,6 +1044,14 @@ div#Inf4 {
   -webkit-transition: opacity 1s;
   opacity: 0;
   color: #F39A00;
+}
+@media screen and (max-width: 768px) {
+  div#Inf4 {
+    width: 392px;
+    height: 392px;
+    position: absolute;
+    overflow: hidden;
+  }
 }
 
 div#Inf4 h1 {
@@ -1042,6 +1064,12 @@ div#Inf4 h1 {
   padding-bottom: 80px;
   position: absolute;
   margin-left: -430px;
+}
+@media screen and (max-width: 768px) {
+  div#Inf4 h1 {
+    font-size: 30px;
+    padding-top: 60px;
+  }
 }
 
 div#Inf4 h2 {
@@ -1057,6 +1085,12 @@ div#Inf4 h2 {
   margin-left: 90px;
   margin-top: -350px;
 }
+@media screen and (max-width: 768px) {
+  div#Inf4 h2 {
+    font-size: 20px;
+    margin-left: 60px;
+  }
+}
 
 div.Tipos__Segunda__Parte__4:hover div#Inf4 {
   opacity: 1;
@@ -1066,10 +1100,20 @@ div#Inf4:hover h1 {
   margin-left: 150px;
   -webkit-transition: margin 1s;
 }
+@media screen and (max-width: 768px) {
+  div#Inf4:hover h1 {
+    margin-left: 130px;
+  }
+}
 
 div#Inf4:hover h2 {
   margin-top: 220px;
   -webkit-transition: margin 1s;
+}
+@media screen and (max-width: 768px) {
+  div#Inf4:hover h2 {
+    margin-top: 100px;
+  }
 }
 
 div.Tipos__Segunda__Parte__5 {
@@ -1082,6 +1126,15 @@ div.Tipos__Segunda__Parte__5 {
   padding-top: 0px;
   padding-bottom: 0px;
 }
+@media screen and (max-width: 768px) {
+  div.Tipos__Segunda__Parte__5 {
+    width: 400px;
+    height: 400px;
+    background-size: cover;
+    margin-left: 10%;
+    border: 4px solid #F39A00;
+  }
+}
 
 div#Inf5 {
   width: 535px;
@@ -1092,6 +1145,14 @@ div#Inf5 {
   -webkit-transition: opacity 1s;
   opacity: 0;
   color: #F39A00;
+}
+@media screen and (max-width: 768px) {
+  div#Inf5 {
+    width: 392px;
+    height: 392px;
+    position: absolute;
+    overflow: hidden;
+  }
 }
 
 div#Inf5 h1 {
@@ -1104,6 +1165,12 @@ div#Inf5 h1 {
   padding-bottom: 80px;
   position: absolute;
   margin-left: -430px;
+}
+@media screen and (max-width: 768px) {
+  div#Inf5 h1 {
+    font-size: 30px;
+    padding-top: 60px;
+  }
 }
 
 div#Inf5 h2 {
@@ -1119,6 +1186,12 @@ div#Inf5 h2 {
   margin-left: 120px;
   margin-top: -450px;
 }
+@media screen and (max-width: 768px) {
+  div#Inf5 h2 {
+    font-size: 20px;
+    margin-left: 60px;
+  }
+}
 
 div.Tipos__Segunda__Parte__5:hover div#Inf5 {
   opacity: 1;
@@ -1128,10 +1201,20 @@ div#Inf5:hover h1 {
   margin-left: 130px;
   -webkit-transition: margin 1s;
 }
+@media screen and (max-width: 768px) {
+  div#Inf5:hover h1 {
+    margin-left: 110px;
+  }
+}
 
 div#Inf5:hover h2 {
   margin-top: 220px;
   -webkit-transition: margin 1s;
+}
+@media screen and (max-width: 768px) {
+  div#Inf5:hover h2 {
+    margin-top: 100px;
+  }
 }
 
 div.Tipos__Segunda__Parte__6 {
@@ -1144,6 +1227,15 @@ div.Tipos__Segunda__Parte__6 {
   padding-top: 0px;
   padding-bottom: 0px;
 }
+@media screen and (max-width: 768px) {
+  div.Tipos__Segunda__Parte__6 {
+    width: 400px;
+    height: 400px;
+    background-size: cover;
+    margin-left: 10%;
+    border: 4px solid #F39A00;
+  }
+}
 
 div#Inf6 {
   width: 535px;
@@ -1154,6 +1246,14 @@ div#Inf6 {
   -webkit-transition: opacity 1s;
   opacity: 0;
   color: #F39A00;
+}
+@media screen and (max-width: 768px) {
+  div#Inf6 {
+    width: 392px;
+    height: 392px;
+    position: absolute;
+    overflow: hidden;
+  }
 }
 
 div#Inf6 h1 {
@@ -1166,6 +1266,12 @@ div#Inf6 h1 {
   padding-bottom: 80px;
   position: absolute;
   margin-left: -430px;
+}
+@media screen and (max-width: 768px) {
+  div#Inf6 h1 {
+    font-size: 30px;
+    padding-top: 60px;
+  }
 }
 
 div#Inf6 h2 {
@@ -1181,6 +1287,12 @@ div#Inf6 h2 {
   margin-left: 120px;
   margin-top: -450px;
 }
+@media screen and (max-width: 768px) {
+  div#Inf6 h2 {
+    font-size: 20px;
+    margin-left: 60px;
+  }
+}
 
 div.Tipos__Segunda__Parte__6:hover div#Inf6 {
   opacity: 1;
@@ -1190,10 +1302,20 @@ div#Inf6:hover h1 {
   margin-left: 100px;
   -webkit-transition: margin 1s;
 }
+@media screen and (max-width: 768px) {
+  div#Inf6:hover h1 {
+    margin-left: 80px;
+  }
+}
 
 div#Inf6:hover h2 {
   margin-top: 220px;
   -webkit-transition: margin 1s;
+}
+@media screen and (max-width: 768px) {
+  div#Inf6:hover h2 {
+    margin-top: 100px;
+  }
 }
 
 /*Tercera parte de tipos de tattoo*/
@@ -1204,6 +1326,11 @@ div#Inf6:hover h2 {
   align-items: center;
   padding-top: 10px;
   padding-bottom: 10px;
+}
+@media screen and (max-width: 768px) {
+  .Tipos__Tercera__Parte {
+    display: block;
+  }
 }
 
 /* foto 7 8 9 */
@@ -1216,6 +1343,15 @@ div.Tipos__Tercera__Parte__7 {
   padding-top: 0px;
   padding-bottom: 0px;
 }
+@media screen and (max-width: 768px) {
+  div.Tipos__Tercera__Parte__7 {
+    width: 400px;
+    height: 400px;
+    background-size: cover;
+    margin-left: 10%;
+    border: 4px solid black;
+  }
+}
 
 div#Inf7 {
   width: 535px;
@@ -1226,6 +1362,14 @@ div#Inf7 {
   -webkit-transition: opacity 1s;
   opacity: 0;
   color: #F39A00;
+}
+@media screen and (max-width: 768px) {
+  div#Inf7 {
+    width: 392px;
+    height: 392px;
+    position: absolute;
+    overflow: hidden;
+  }
 }
 
 div#Inf7 h1 {
@@ -1238,6 +1382,12 @@ div#Inf7 h1 {
   padding-bottom: 80px;
   position: absolute;
   margin-left: -430px;
+}
+@media screen and (max-width: 768px) {
+  div#Inf7 h1 {
+    font-size: 30px;
+    padding-top: 60px;
+  }
 }
 
 div#Inf7 h2 {
@@ -1253,6 +1403,12 @@ div#Inf7 h2 {
   margin-left: 120px;
   margin-top: -350px;
 }
+@media screen and (max-width: 768px) {
+  div#Inf7 h2 {
+    font-size: 20px;
+    margin-left: 60px;
+  }
+}
 
 div.Tipos__Tercera__Parte__7:hover div#Inf7 {
   opacity: 1;
@@ -1262,10 +1418,20 @@ div#Inf7:hover h1 {
   margin-left: 180px;
   -webkit-transition: margin 1s;
 }
+@media screen and (max-width: 768px) {
+  div#Inf7:hover h1 {
+    margin-left: 130px;
+  }
+}
 
 div#Inf7:hover h2 {
   margin-top: 220px;
   -webkit-transition: margin 1s;
+}
+@media screen and (max-width: 768px) {
+  div#Inf7:hover h2 {
+    margin-top: 100px;
+  }
 }
 
 div.Tipos__Tercera__Parte__8 {
@@ -1279,6 +1445,15 @@ div.Tipos__Tercera__Parte__8 {
   padding-top: 0px;
   padding-bottom: 0px;
 }
+@media screen and (max-width: 768px) {
+  div.Tipos__Tercera__Parte__8 {
+    width: 400px;
+    height: 400px;
+    background-size: cover;
+    margin-left: 10%;
+    border: 4px solid black;
+  }
+}
 
 div#Inf8 {
   width: 535px;
@@ -1289,6 +1464,14 @@ div#Inf8 {
   -webkit-transition: opacity 1s;
   opacity: 0;
   color: #F39A00;
+}
+@media screen and (max-width: 768px) {
+  div#Inf8 {
+    width: 392px;
+    height: 392px;
+    position: absolute;
+    overflow: hidden;
+  }
 }
 
 div#Inf8 h1 {
@@ -1301,6 +1484,12 @@ div#Inf8 h1 {
   padding-bottom: 80px;
   position: absolute;
   margin-left: -430px;
+}
+@media screen and (max-width: 768px) {
+  div#Inf8 h1 {
+    font-size: 30px;
+    padding-top: 60px;
+  }
 }
 
 div#Inf8 h2 {
@@ -1316,6 +1505,12 @@ div#Inf8 h2 {
   margin-left: 120px;
   margin-top: -350px;
 }
+@media screen and (max-width: 768px) {
+  div#Inf8 h2 {
+    font-size: 20px;
+    margin-left: 60px;
+  }
+}
 
 div.Tipos__Tercera__Parte__8:hover div#Inf8 {
   opacity: 1;
@@ -1325,10 +1520,20 @@ div#Inf8:hover h1 {
   margin-left: 160px;
   -webkit-transition: margin 1s;
 }
+@media screen and (max-width: 768px) {
+  div#Inf8:hover h1 {
+    margin-left: 130px;
+  }
+}
 
 div#Inf8:hover h2 {
   margin-top: 220px;
   -webkit-transition: margin 1s;
+}
+@media screen and (max-width: 768px) {
+  div#Inf8:hover h2 {
+    margin-top: 100px;
+  }
 }
 
 div.Tipos__Tercera__Parte__9 {
@@ -1341,6 +1546,15 @@ div.Tipos__Tercera__Parte__9 {
   padding-top: 0px;
   padding-bottom: 0px;
 }
+@media screen and (max-width: 768px) {
+  div.Tipos__Tercera__Parte__9 {
+    width: 400px;
+    height: 400px;
+    background-size: cover;
+    margin-left: 10%;
+    border: 4px solid black;
+  }
+}
 
 div#Inf9 {
   width: 535px;
@@ -1351,6 +1565,14 @@ div#Inf9 {
   -webkit-transition: opacity 1s;
   opacity: 0;
   color: #F39A00;
+}
+@media screen and (max-width: 768px) {
+  div#Inf9 {
+    width: 392px;
+    height: 392px;
+    position: absolute;
+    overflow: hidden;
+  }
 }
 
 div#Inf9 h1 {
@@ -1363,6 +1585,12 @@ div#Inf9 h1 {
   padding-bottom: 80px;
   position: absolute;
   margin-left: -430px;
+}
+@media screen and (max-width: 768px) {
+  div#Inf9 h1 {
+    font-size: 30px;
+    padding-top: 20px;
+  }
 }
 
 div#Inf9 h2 {
@@ -1378,6 +1606,12 @@ div#Inf9 h2 {
   margin-left: 120px;
   margin-top: -350px;
 }
+@media screen and (max-width: 768px) {
+  div#Inf9 h2 {
+    font-size: 20px;
+    margin-left: 60px;
+  }
+}
 
 div.Tipos__Tercera__Parte__9:hover div#Inf9 {
   opacity: 1;
@@ -1387,10 +1621,20 @@ div#Inf9:hover h1 {
   margin-left: 120px;
   -webkit-transition: margin 1s;
 }
+@media screen and (max-width: 768px) {
+  div#Inf9:hover h1 {
+    margin-left: 90px;
+  }
+}
 
 div#Inf9:hover h2 {
   margin-top: 220px;
   -webkit-transition: margin 1s;
+}
+@media screen and (max-width: 768px) {
+  div#Inf9:hover h2 {
+    margin-top: 80px;
+  }
 }
 
 /*Cuarta parte de tipos de tattoo*/
@@ -1401,6 +1645,11 @@ div#Inf9:hover h2 {
   align-items: center;
   padding-top: 10px;
   padding-bottom: 10px;
+}
+@media screen and (max-width: 768px) {
+  .Tipos__Cuarta__Parte {
+    display: block;
+  }
 }
 
 /* foto 10 11 12 */
@@ -1413,6 +1662,15 @@ div.Tipos__Cuarta__Parte__10 {
   padding-top: 0px;
   padding-bottom: 0px;
 }
+@media screen and (max-width: 768px) {
+  div.Tipos__Cuarta__Parte__10 {
+    width: 400px;
+    height: 400px;
+    background-size: cover;
+    margin-left: 10%;
+    border: 4px solid black;
+  }
+}
 
 div#Inf10 {
   width: 535px;
@@ -1423,6 +1681,14 @@ div#Inf10 {
   -webkit-transition: opacity 1s;
   opacity: 0;
   color: #F39A00;
+}
+@media screen and (max-width: 768px) {
+  div#Inf10 {
+    width: 392px;
+    height: 392px;
+    position: absolute;
+    overflow: hidden;
+  }
 }
 
 div#Inf10 h1 {
@@ -1435,6 +1701,12 @@ div#Inf10 h1 {
   padding-bottom: 80px;
   position: absolute;
   margin-left: -430px;
+}
+@media screen and (max-width: 768px) {
+  div#Inf10 h1 {
+    font-size: 30px;
+    padding-top: 60px;
+  }
 }
 
 div#Inf10 h2 {
@@ -1450,6 +1722,12 @@ div#Inf10 h2 {
   margin-left: 120px;
   margin-top: -350px;
 }
+@media screen and (max-width: 768px) {
+  div#Inf10 h2 {
+    font-size: 20px;
+    margin-left: 60px;
+  }
+}
 
 div.Tipos__Cuarta__Parte__10:hover div#Inf10 {
   opacity: 1;
@@ -1459,10 +1737,20 @@ div#Inf10:hover h1 {
   margin-left: 160px;
   -webkit-transition: margin 1s;
 }
+@media screen and (max-width: 768px) {
+  div#Inf10:hover h1 {
+    margin-left: 130px;
+  }
+}
 
 div#Inf10:hover h2 {
   margin-top: 220px;
   -webkit-transition: margin 1s;
+}
+@media screen and (max-width: 768px) {
+  div#Inf10:hover h2 {
+    margin-top: 100px;
+  }
 }
 
 div.Tipos__Cuarta__Parte__11 {
@@ -1476,6 +1764,15 @@ div.Tipos__Cuarta__Parte__11 {
   padding-top: 0px;
   padding-bottom: 0px;
 }
+@media screen and (max-width: 768px) {
+  div.Tipos__Cuarta__Parte__11 {
+    width: 400px;
+    height: 400px;
+    background-size: cover;
+    margin-left: 10%;
+    border: 4px solid black;
+  }
+}
 
 div#Inf11 {
   width: 535px;
@@ -1486,6 +1783,14 @@ div#Inf11 {
   -webkit-transition: opacity 1s;
   opacity: 0;
   color: #F39A00;
+}
+@media screen and (max-width: 768px) {
+  div#Inf11 {
+    width: 392px;
+    height: 392px;
+    position: absolute;
+    overflow: hidden;
+  }
 }
 
 div#Inf11 h1 {
@@ -1498,6 +1803,12 @@ div#Inf11 h1 {
   padding-bottom: 80px;
   position: absolute;
   margin-left: -430px;
+}
+@media screen and (max-width: 768px) {
+  div#Inf11 h1 {
+    font-size: 30px;
+    padding-top: 20px;
+  }
 }
 
 div#Inf11 h2 {
@@ -1513,6 +1824,12 @@ div#Inf11 h2 {
   margin-left: 120px;
   margin-top: -350px;
 }
+@media screen and (max-width: 768px) {
+  div#Inf11 h2 {
+    font-size: 20px;
+    margin-left: 60px;
+  }
+}
 
 div.Tipos__Cuarta__Parte__11:hover div#Inf11 {
   opacity: 1;
@@ -1522,10 +1839,20 @@ div#Inf11:hover h1 {
   margin-left: 170px;
   -webkit-transition: margin 1s;
 }
+@media screen and (max-width: 768px) {
+  div#Inf11:hover h1 {
+    margin-left: 130px;
+  }
+}
 
 div#Inf11:hover h2 {
   margin-top: 220px;
   -webkit-transition: margin 1s;
+}
+@media screen and (max-width: 768px) {
+  div#Inf11:hover h2 {
+    margin-top: 70px;
+  }
 }
 
 div.Tipos__Cuarta__Parte__12 {
@@ -1539,6 +1866,15 @@ div.Tipos__Cuarta__Parte__12 {
   padding-top: 0px;
   padding-bottom: 0px;
 }
+@media screen and (max-width: 768px) {
+  div.Tipos__Cuarta__Parte__12 {
+    width: 400px;
+    height: 400px;
+    background-size: cover;
+    margin-left: 10%;
+    border: 4px solid black;
+  }
+}
 
 div#Inf12 {
   width: 535px;
@@ -1549,6 +1885,14 @@ div#Inf12 {
   -webkit-transition: opacity 1s;
   opacity: 0;
   color: #F39A00;
+}
+@media screen and (max-width: 768px) {
+  div#Inf12 {
+    width: 392px;
+    height: 392px;
+    position: absolute;
+    overflow: hidden;
+  }
 }
 
 div#Inf12 h1 {
@@ -1561,6 +1905,12 @@ div#Inf12 h1 {
   padding-bottom: 80px;
   position: absolute;
   margin-left: -430px;
+}
+@media screen and (max-width: 768px) {
+  div#Inf12 h1 {
+    font-size: 30px;
+    padding-top: 60px;
+  }
 }
 
 div#Inf12 h2 {
@@ -1576,6 +1926,12 @@ div#Inf12 h2 {
   margin-left: 120px;
   margin-top: -350px;
 }
+@media screen and (max-width: 768px) {
+  div#Inf12 h2 {
+    font-size: 20px;
+    margin-left: 60px;
+  }
+}
 
 div.Tipos__Cuarta__Parte__12:hover div#Inf12 {
   opacity: 1;
@@ -1585,10 +1941,20 @@ div#Inf12:hover h1 {
   margin-left: 170px;
   -webkit-transition: margin 1s;
 }
+@media screen and (max-width: 768px) {
+  div#Inf12:hover h1 {
+    margin-left: 130px;
+  }
+}
 
 div#Inf12:hover h2 {
   margin-top: 220px;
   -webkit-transition: margin 1s;
+}
+@media screen and (max-width: 768px) {
+  div#Inf12:hover h2 {
+    margin-top: 100px;
+  }
 }
 
 /*Quinta parte de tipos de tattoo*/
@@ -1599,6 +1965,11 @@ div#Inf12:hover h2 {
   align-items: center;
   padding-top: 10px;
   padding-bottom: 10px;
+}
+@media screen and (max-width: 768px) {
+  .Tipos__Quinta__Parte {
+    display: block;
+  }
 }
 
 /* foto 13 14 15 */
@@ -1612,6 +1983,15 @@ div.Tipos__Quinta__Parte__13 {
   padding-top: 0px;
   padding-bottom: 0px;
 }
+@media screen and (max-width: 768px) {
+  div.Tipos__Quinta__Parte__13 {
+    width: 400px;
+    height: 400px;
+    background-size: cover;
+    margin-left: 10%;
+    border: 4px solid black;
+  }
+}
 
 div#Inf13 {
   width: 535px;
@@ -1622,6 +2002,14 @@ div#Inf13 {
   -webkit-transition: opacity 1s;
   opacity: 0;
   color: #F39A00;
+}
+@media screen and (max-width: 768px) {
+  div#Inf13 {
+    width: 392px;
+    height: 392px;
+    position: absolute;
+    overflow: hidden;
+  }
 }
 
 div#Inf13 h1 {
@@ -1634,6 +2022,12 @@ div#Inf13 h1 {
   padding-bottom: 80px;
   position: absolute;
   margin-left: -430px;
+}
+@media screen and (max-width: 768px) {
+  div#Inf13 h1 {
+    font-size: 30px;
+    padding-top: 60px;
+  }
 }
 
 div#Inf13 h2 {
@@ -1649,6 +2043,12 @@ div#Inf13 h2 {
   margin-left: 120px;
   margin-top: -350px;
 }
+@media screen and (max-width: 768px) {
+  div#Inf13 h2 {
+    font-size: 20px;
+    margin-left: 60px;
+  }
+}
 
 div.Tipos__Quinta__Parte__13:hover div#Inf13 {
   opacity: 1;
@@ -1658,10 +2058,20 @@ div#Inf13:hover h1 {
   margin-left: 180px;
   -webkit-transition: margin 1s;
 }
+@media screen and (max-width: 768px) {
+  div#Inf13:hover h1 {
+    margin-left: 150px;
+  }
+}
 
 div#Inf13:hover h2 {
   margin-top: 220px;
   -webkit-transition: margin 1s;
+}
+@media screen and (max-width: 768px) {
+  div#Inf13:hover h2 {
+    margin-top: 100px;
+  }
 }
 
 div.Tipos__Quinta__Parte__14 {
@@ -1675,6 +2085,15 @@ div.Tipos__Quinta__Parte__14 {
   padding-top: 0px;
   padding-bottom: 0px;
 }
+@media screen and (max-width: 768px) {
+  div.Tipos__Quinta__Parte__14 {
+    width: 400px;
+    height: 400px;
+    background-size: cover;
+    margin-left: 10%;
+    border: 4px solid black;
+  }
+}
 
 div#Inf14 {
   width: 535px;
@@ -1685,6 +2104,14 @@ div#Inf14 {
   -webkit-transition: opacity 1s;
   opacity: 0;
   color: #F39A00;
+}
+@media screen and (max-width: 768px) {
+  div#Inf14 {
+    width: 392px;
+    height: 392px;
+    position: absolute;
+    overflow: hidden;
+  }
 }
 
 div#Inf14 h1 {
@@ -1697,6 +2124,12 @@ div#Inf14 h1 {
   padding-bottom: 80px;
   position: absolute;
   margin-left: -430px;
+}
+@media screen and (max-width: 768px) {
+  div#Inf14 h1 {
+    font-size: 30px;
+    padding-top: 60px;
+  }
 }
 
 div#Inf14 h2 {
@@ -1712,6 +2145,12 @@ div#Inf14 h2 {
   margin-left: 120px;
   margin-top: -350px;
 }
+@media screen and (max-width: 768px) {
+  div#Inf14 h2 {
+    font-size: 20px;
+    margin-left: 60px;
+  }
+}
 
 div.Tipos__Quinta__Parte__14:hover div#Inf14 {
   opacity: 1;
@@ -1721,10 +2160,20 @@ div#Inf14:hover h1 {
   margin-left: 60px;
   -webkit-transition: margin 1s;
 }
+@media screen and (max-width: 768px) {
+  div#Inf14:hover h1 {
+    margin-left: 40px;
+  }
+}
 
 div#Inf14:hover h2 {
   margin-top: 220px;
   -webkit-transition: margin 1s;
+}
+@media screen and (max-width: 768px) {
+  div#Inf14:hover h2 {
+    margin-top: 130px;
+  }
 }
 
 div.Tipos__Quinta__Parte__15 {
@@ -1738,6 +2187,15 @@ div.Tipos__Quinta__Parte__15 {
   padding-top: 0px;
   padding-bottom: 0px;
 }
+@media screen and (max-width: 768px) {
+  div.Tipos__Quinta__Parte__15 {
+    width: 400px;
+    height: 400px;
+    background-size: cover;
+    margin-left: 10%;
+    border: 4px solid black;
+  }
+}
 
 div#Inf15 {
   width: 535px;
@@ -1748,6 +2206,14 @@ div#Inf15 {
   -webkit-transition: opacity 1s;
   opacity: 0;
   color: #F39A00;
+}
+@media screen and (max-width: 768px) {
+  div#Inf15 {
+    width: 392px;
+    height: 392px;
+    position: absolute;
+    overflow: hidden;
+  }
 }
 
 div#Inf15 h1 {
@@ -1760,6 +2226,12 @@ div#Inf15 h1 {
   padding-bottom: 80px;
   position: absolute;
   margin-left: -430px;
+}
+@media screen and (max-width: 768px) {
+  div#Inf15 h1 {
+    font-size: 30px;
+    padding-top: 60px;
+  }
 }
 
 div#Inf15 h2 {
@@ -1775,6 +2247,12 @@ div#Inf15 h2 {
   margin-left: 120px;
   margin-top: -350px;
 }
+@media screen and (max-width: 768px) {
+  div#Inf15 h2 {
+    font-size: 20px;
+    margin-left: 60px;
+  }
+}
 
 div.Tipos__Quinta__Parte__15:hover div#Inf15 {
   opacity: 1;
@@ -1784,10 +2262,20 @@ div#Inf15:hover h1 {
   margin-left: 140px;
   -webkit-transition: margin 1s;
 }
+@media screen and (max-width: 768px) {
+  div#Inf15:hover h1 {
+    margin-left: 120px;
+  }
+}
 
 div#Inf15:hover h2 {
   margin-top: 220px;
   -webkit-transition: margin 1s;
+}
+@media screen and (max-width: 768px) {
+  div#Inf15:hover h2 {
+    margin-top: 100px;
+  }
 }
 
 /*Cuidados*/
@@ -1804,6 +2292,12 @@ div#Inf15:hover h2 {
   font-family: Georgia, "Times New Roman", Times, serif;
   margin-left: 15%;
 }
+@media screen and (max-width: 768px) {
+  .Cuidado__Titulo {
+    font-size: 500%;
+    margin-left: 5%;
+  }
+}
 
 .Cuidados {
   background-color: #F39A00;
@@ -1812,6 +2306,11 @@ div#Inf15:hover h2 {
   align-items: center;
   padding-top: 50px;
   padding-bottom: 50px;
+}
+@media screen and (max-width: 768px) {
+  .Cuidados {
+    display: block;
+  }
 }
 
 .Cuidados__Lista__1 h2 {
@@ -1827,13 +2326,23 @@ div#Inf15:hover h2 {
   padding-top: 0px;
   padding-bottom: 0px;
 }
+@media screen and (max-width: 768px) {
+  .Cuidados__Lista__1 h2 {
+    font-size: 30px;
+    border-radius: 0px;
+    margin-bottom: 16px;
+    border: 4px solid black;
+    padding-top: 0px;
+    padding-bottom: 0px;
+  }
+}
 
 .Cuidados__Lista__1 {
   font-size: 20px;
-  font-weight: lighter;
+  font-weight: bold;
   font-family: Arial, sans-serif;
   color: black;
-  text-align: left;
+  text-align: center;
   background-color: #F39A00;
   border-radius: 4px;
   margin-bottom: 16px;
@@ -1841,6 +2350,30 @@ div#Inf15:hover h2 {
   padding-top: 0px;
   padding-bottom: 0px;
   margin-left: 0px;
+}
+@media screen and (max-width: 768px) {
+  .Cuidados__Lista__1 {
+    font-size: 15px;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 0px;
+    margin-bottom: 16px;
+    border: 4px solid black;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    margin-left: 0px;
+  }
+}
+
+.Cuidados__Imagen {
+  width: 600px;
+}
+@media screen and (max-width: 768px) {
+  .Cuidados__Imagen {
+    width: 400px;
+    margin-left: 10%;
+    padding-bottom: 20px;
+  }
 }
 
 .Cuidados__Lista__2 h2 {
@@ -1856,6 +2389,16 @@ div#Inf15:hover h2 {
   padding-top: 0px;
   padding-bottom: 0px;
 }
+@media screen and (max-width: 768px) {
+  .Cuidados__Lista__2 h2 {
+    font-size: 30px;
+    border-radius: 0px;
+    margin-bottom: 16px;
+    border: 4px solid black;
+    padding-top: 0px;
+    padding-bottom: 0px;
+  }
+}
 
 .Cuidados__Lista__2 {
   font-size: 20px;
@@ -1870,6 +2413,19 @@ div#Inf15:hover h2 {
   padding-top: 0px;
   padding-bottom: 0px;
   margin-left: 0px;
+}
+@media screen and (max-width: 768px) {
+  .Cuidados__Lista__2 {
+    font-size: 15px;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 0px;
+    margin-bottom: 16px;
+    border: 4px solid black;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    margin-left: 0px;
+  }
 }
 
 /*Contacto*/
@@ -1894,6 +2450,11 @@ div#Inf15:hover h2 {
   font-family: Arial, sans-serif;
   color: #F39A00;
 }
+@media screen and (max-width: 768px) {
+  .Formulario__Contacto {
+    width: 400px;
+  }
+}
 
 .Formulario__Imagen__1 {
   margin-left: 10px;
@@ -1916,6 +2477,12 @@ div#Inf15:hover h2 {
 .Mapa {
   width: 585px;
   height: 400px;
+}
+@media screen and (max-width: 768px) {
+  .Mapa {
+    width: 335px;
+    height: 325px;
+  }
 }
 
 .Contacto h2 {

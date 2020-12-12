@@ -18,6 +18,10 @@
     border: 8px solid black;
     font-family: $Fuente_Parrafos;
     color: $Color_Principal_2;
+
+    @media screen and (max-width: 768px) {
+        width: 400px;
+    }
 }
 
  .Formulario__Imagen__1{
@@ -41,6 +45,11 @@
  .Mapa{
     width: 585px;
     height: 400px;
+
+    @media screen and (max-width: 768px) {
+        width: 335px;
+        height: 325px;
+    }
  }
 
 .Contacto h2 {
